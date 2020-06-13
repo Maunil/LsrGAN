@@ -1,0 +1,1511 @@
+Training Start:Wed, 05 Feb 2020 22:04:31 +0000
+Running Parameter Logs{
+    "gpu":"0",
+    "splitmode":"easy",
+    "manualSeed":null,
+    "resume":null,
+    "disp_interval":20,
+    "save_interval":200,
+    "evl_interval":10,
+    "epsilon":0.15,
+    "unseen_start":500,
+    "mode_change":250,
+    "correlation_penalty":0.15
+}Iter-20; Was_D: 6.873; Euc_ls: 6.737; reg_ls: 6.468; Wz_ls: 0.4375; G_loss: 0.4615; Correlation_loss : 20.13 ; D_loss_real: 7.353; D_loss_fake: 0.4802; rl: 69.6%; fk: 0.8%
+
+KNN Acc : 1.4680668666952421 , Discriminator Classifier Acc : 0.0
+AUC Score is 0.0002355
+KNN Acc : 1.810972996142306 , Discriminator Classifier Acc : 0.0
+AUC Score is 0.0005055
+Iter-40; Was_D: 7.033; Euc_ls: 6.53; reg_ls: 5.903; Wz_ls: 0.385; G_loss: 1.171; Correlation_loss : 19.4 ; D_loss_real: 8.243; D_loss_fake: 1.21; rl: 84.7%; fk: 1.4%
+
+KNN Acc : 2.9254179168452636 , Discriminator Classifier Acc : 0.0
+AUC Score is 0.001207
+KNN Acc : 2.968281183026147 , Discriminator Classifier Acc : 0.0
+AUC Score is 0.002295
+Iter-60; Was_D: 4.965; Euc_ls: 6.291; reg_ls: 5.485; Wz_ls: 0.342; G_loss: 2.665; Correlation_loss : 18.29 ; D_loss_real: 7.649; D_loss_fake: 2.683; rl: 89.4%; fk: 3.0%
+
+KNN Acc : 3.16116588084012 , Discriminator Classifier Acc : 0.0
+AUC Score is 0.002714
+KNN Acc : 4.136305186455208 , Discriminator Classifier Acc : 0.0
+AUC Score is 0.006163
+Iter-80; Was_D: 3.647; Euc_ls: 6.304; reg_ls: 5.181; Wz_ls: 0.3065; G_loss: 3.417; Correlation_loss : 18.89 ; D_loss_real: 7.031; D_loss_fake: 3.384; rl: 91.3%; fk: 4.6%
+
+KNN Acc : 6.76168024003429 , Discriminator Classifier Acc : 0.0
+AUC Score is 0.01207
+KNN Acc : 7.372481783111873 , Discriminator Classifier Acc : 0.0
+AUC Score is 0.01575
+Iter-100; Was_D: 3.052; Euc_ls: 6.197; reg_ls: 4.981; Wz_ls: 0.2795; G_loss: 3.401; Correlation_loss : 16.81 ; D_loss_real: 6.503; D_loss_fake: 3.452; rl: 91.7%; fk: 11.5%
+
+KNN Acc : 8.894127732533219 , Discriminator Classifier Acc : 0.0
+AUC Score is 0.02412
+KNN Acc : 11.101585940848693 , Discriminator Classifier Acc : 0.0
+AUC Score is 0.03264
+Iter-120; Was_D: 2.996; Euc_ls: 5.934; reg_ls: 4.827; Wz_ls: 0.2571; G_loss: 2.899; Correlation_loss : 14.7 ; D_loss_real: 5.901; D_loss_fake: 2.905; rl: 93.7%; fk: 27.3%
+
+KNN Acc : 15.248606943849122 , Discriminator Classifier Acc : 0.0
+AUC Score is 0.03801
+KNN Acc : 16.877411058722675 , Discriminator Classifier Acc : 0.0
+AUC Score is 0.05038
+Iter-140; Was_D: 3.067; Euc_ls: 5.965; reg_ls: 4.696; Wz_ls: 0.2375; G_loss: 2.769; Correlation_loss : 14.33 ; D_loss_real: 5.759; D_loss_fake: 2.693; rl: 92.4%; fk: 51.7%
+
+KNN Acc : 18.870552936133734 , Discriminator Classifier Acc : 0.0
+AUC Score is 0.06243
+KNN Acc : 20.231461637376768 , Discriminator Classifier Acc : 0.0
+AUC Score is 0.0787
+Iter-160; Was_D: 3.124; Euc_ls: 5.902; reg_ls: 4.585; Wz_ls: 0.2204; G_loss: 2.864; Correlation_loss : 13.02 ; D_loss_real: 5.999; D_loss_fake: 2.876; rl: 89.9%; fk: 75.5%
+
+KNN Acc : 20.39219888555508 , Discriminator Classifier Acc : 0.0
+AUC Score is 0.08151
+KNN Acc : 21.313759108444064 , Discriminator Classifier Acc : 0.0
+AUC Score is 0.08975
+Iter-180; Was_D: 3.213; Euc_ls: 5.713; reg_ls: 4.476; Wz_ls: 0.2039; G_loss: 2.81; Correlation_loss : 13.13 ; D_loss_real: 5.985; D_loss_fake: 2.772; rl: 88.9%; fk: 86.6%
+
+KNN Acc : 23.349764252036003 , Discriminator Classifier Acc : 0.0
+AUC Score is 0.1013
+KNN Acc : 22.899699957136736 , Discriminator Classifier Acc : 0.0
+AUC Score is 0.1192
+Iter-200; Was_D: 3.478; Euc_ls: 5.762; reg_ls: 4.369; Wz_ls: 0.1884; G_loss: 2.773; Correlation_loss : 12.31 ; D_loss_real: 6.191; D_loss_fake: 2.713; rl: 92.0%; fk: 95.9%
+
+KNN Acc : 25.557222460351483 , Discriminator Classifier Acc : 0.0
+AUC Score is 0.1152
+KNN Acc : 22.792541791684524 , Discriminator Classifier Acc : 0.0
+AUC Score is 0.1179
+Iter-220; Was_D: 3.731; Euc_ls: 5.53; reg_ls: 4.268; Wz_ls: 0.1747; G_loss: 2.665; Correlation_loss : 12.33 ; D_loss_real: 6.381; D_loss_fake: 2.65; rl: 91.6%; fk: 98.1%
+
+KNN Acc : 22.963994856408057 , Discriminator Classifier Acc : 0.0
+AUC Score is 0.1258
+KNN Acc : 24.196313759108445 , Discriminator Classifier Acc : 0.0
+AUC Score is 0.1329
+Iter-240; Was_D: 3.884; Euc_ls: 5.374; reg_ls: 4.175; Wz_ls: 0.1635; G_loss: 2.482; Correlation_loss : 12.49 ; D_loss_real: 6.323; D_loss_fake: 2.439; rl: 93.2%; fk: 97.9%
+
+KNN Acc : 25.214316330904413 , Discriminator Classifier Acc : 0.0
+AUC Score is 0.1405
+KNN Acc : 26.146592370338617 , Discriminator Classifier Acc : 0.0
+AUC Score is 0.1426
+Iter-260; Was_D: 4.061; Euc_ls: 5.054; reg_ls: 4.088; Wz_ls: 0.1543; G_loss: 2.48; Correlation_loss : 12.6 ; D_loss_real: 6.63; D_loss_fake: 2.569; rl: 95.0%; fk: 100.0%
+
+KNN Acc : 25.053579082726102 , Discriminator Classifier Acc : 0.0
+AUC Score is 0.1464
+KNN Acc : 26.253750535790825 , Discriminator Classifier Acc : 0.0
+AUC Score is 0.156
+Iter-280; Was_D: 4.199; Euc_ls: 5.098; reg_ls: 4.008; Wz_ls: 0.1467; G_loss: 2.523; Correlation_loss : 12.85 ; D_loss_real: 6.666; D_loss_fake: 2.468; rl: 94.9%; fk: 99.8%
+
+KNN Acc : 27.53964852121732 , Discriminator Classifier Acc : 0.0
+AUC Score is 0.1581
+KNN Acc : 27.571795970852982 , Discriminator Classifier Acc : 0.0
+AUC Score is 0.1681
+Iter-300; Was_D: 4.349; Euc_ls: 4.891; reg_ls: 3.931; Wz_ls: 0.14; G_loss: 2.511; Correlation_loss : 12.47 ; D_loss_real: 6.832; D_loss_fake: 2.483; rl: 96.5%; fk: 99.9%
+
+KNN Acc : 27.346763823403343 , Discriminator Classifier Acc : 0.0
+AUC Score is 0.164
+KNN Acc : 27.207458208315472 , Discriminator Classifier Acc : 0.0
+AUC Score is 0.1675
+Iter-320; Was_D: 4.407; Euc_ls: 4.843; reg_ls: 3.86; Wz_ls: 0.1348; G_loss: 2.499; Correlation_loss : 12.87 ; D_loss_real: 6.922; D_loss_fake: 2.514; rl: 96.7%; fk: 100.0%
+
+KNN Acc : 28.493356193741963 , Discriminator Classifier Acc : 0.0
+AUC Score is 0.1743
+KNN Acc : 27.593227603943422 , Discriminator Classifier Acc : 0.0
+AUC Score is 0.1692
+Iter-340; Was_D: 4.467; Euc_ls: 4.745; reg_ls: 3.796; Wz_ls: 0.1308; G_loss: 2.436; Correlation_loss : 12.85 ; D_loss_real: 6.912; D_loss_fake: 2.445; rl: 96.9%; fk: 99.6%
+
+KNN Acc : 29.222031718816975 , Discriminator Classifier Acc : 0.0
+AUC Score is 0.1708
+KNN Acc : 28.536219459922847 , Discriminator Classifier Acc : 0.0
+AUC Score is 0.1714
+Iter-360; Was_D: 4.374; Euc_ls: 4.592; reg_ls: 3.738; Wz_ls: 0.1276; G_loss: 2.526; Correlation_loss : 12.62 ; D_loss_real: 6.919; D_loss_fake: 2.545; rl: 98.0%; fk: 99.9%
+
+KNN Acc : 28.246892413201884 , Discriminator Classifier Acc : 0.0
+AUC Score is 0.1849
+KNN Acc : 28.707672524646377 , Discriminator Classifier Acc : 0.0
+AUC Score is 0.1799
+Iter-380; Was_D: 4.492; Euc_ls: 4.689; reg_ls: 3.687; Wz_ls: 0.1256; G_loss: 2.519; Correlation_loss : 12.22 ; D_loss_real: 6.975; D_loss_fake: 2.483; rl: 97.4%; fk: 99.8%
+
+KNN Acc : 28.889841405915128 , Discriminator Classifier Acc : 0.0
+AUC Score is 0.1868
+KNN Acc : 29.01843120445778 , Discriminator Classifier Acc : 0.0
+AUC Score is 0.1803
+Iter-400; Was_D: 4.394; Euc_ls: 4.407; reg_ls: 3.639; Wz_ls: 0.124; G_loss: 2.319; Correlation_loss : 11.98 ; D_loss_real: 6.722; D_loss_fake: 2.328; rl: 98.0%; fk: 99.9%
+
+KNN Acc : 29.275610801543078 , Discriminator Classifier Acc : 0.0
+AUC Score is 0.1813
+KNN Acc : 29.17916845263609 , Discriminator Classifier Acc : 0.0
+AUC Score is 0.1878
+Iter-420; Was_D: 4.476; Euc_ls: 4.254; reg_ls: 3.595; Wz_ls: 0.1231; G_loss: 2.348; Correlation_loss : 11.66 ; D_loss_real: 6.851; D_loss_fake: 2.375; rl: 98.0%; fk: 100.0%
+
+KNN Acc : 30.229318474067725 , Discriminator Classifier Acc : 0.0
+AUC Score is 0.1896
+KNN Acc : 29.682811830261468 , Discriminator Classifier Acc : 0.0
+AUC Score is 0.1912
+Iter-440; Was_D: 4.557; Euc_ls: 4.241; reg_ls: 3.554; Wz_ls: 0.1221; G_loss: 2.3; Correlation_loss : 12.16 ; D_loss_real: 6.921; D_loss_fake: 2.363; rl: 98.6%; fk: 99.9%
+
+KNN Acc : 30.797256750964426 , Discriminator Classifier Acc : 0.0
+AUC Score is 0.1945
+KNN Acc : 29.72567509644235 , Discriminator Classifier Acc : 0.0
+AUC Score is 0.1936
+Iter-460; Was_D: 4.651; Euc_ls: 4.114; reg_ls: 3.514; Wz_ls: 0.1217; G_loss: 2.316; Correlation_loss : 11.65 ; D_loss_real: 6.995; D_loss_fake: 2.344; rl: 99.0%; fk: 99.8%
+
+KNN Acc : 30.518645520788684 , Discriminator Classifier Acc : 0.0
+AUC Score is 0.1946
+KNN Acc : 30.75439348478354 , Discriminator Classifier Acc : 0.0
+AUC Score is 0.1983
+Iter-480; Was_D: 4.545; Euc_ls: 4.119; reg_ls: 3.477; Wz_ls: 0.1213; G_loss: 2.234; Correlation_loss : 11.9 ; D_loss_real: 6.857; D_loss_fake: 2.312; rl: 98.9%; fk: 99.8%
+
+KNN Acc : 30.132876125160735 , Discriminator Classifier Acc : 0.0
+AUC Score is 0.1977
+KNN Acc : 30.111444492070294 , Discriminator Classifier Acc : 0.0
+AUC Score is 0.1923
+Iter-500; Was_D: 4.628; Euc_ls: 4.047; reg_ls: 3.44; Wz_ls: 0.1207; G_loss: 2.238; Correlation_loss : 11.54 ; D_loss_real: 6.86; D_loss_fake: 2.232; rl: 99.4%; fk: 100.0%
+
+KNN Acc : 30.357908272610374 , Discriminator Classifier Acc : 0.0
+AUC Score is 0.2024
+KNN Acc : 26.071581654522074 , Discriminator Classifier Acc : 0.0
+AUC Score is 0.1487
+Iter-520; Was_D: 7.264; Euc_ls: 5.22; reg_ls: 3.356; Wz_ls: 0.1302; G_loss: 1.818; Correlation_loss : 16.3 ; D_loss_real: 9.078; D_loss_fake: 1.814; rl: 99.1%; fk: 99.6%
+Zero_Shot_Iter-520; Correlation_loss : 3.52; fk: 0.0%
+KNN Acc : 25.30004286326618 , Discriminator Classifier Acc : 0.0
+AUC Score is 0.1396
+KNN Acc : 25.54650664380626 , Discriminator Classifier Acc : 0.0
+AUC Score is 0.1343
+Iter-540; Was_D: 6.268; Euc_ls: 4.621; reg_ls: 3.337; Wz_ls: 0.1363; G_loss: 2.953; Correlation_loss : 10.83 ; D_loss_real: 9.202; D_loss_fake: 2.933; rl: 99.8%; fk: 100.0%
+Zero_Shot_Iter-540; Correlation_loss : 1.052; fk: 0.1%
+KNN Acc : 23.810544363480496 , Discriminator Classifier Acc : 0.0
+AUC Score is 0.1256
+KNN Acc : 24.453493356193743 , Discriminator Classifier Acc : 0.0
+AUC Score is 0.1122
+Iter-560; Was_D: 5.305; Euc_ls: 4.01; reg_ls: 3.355; Wz_ls: 0.1423; G_loss: 3.213; Correlation_loss : 12.92 ; D_loss_real: 8.54; D_loss_fake: 3.235; rl: 99.6%; fk: 100.0%
+Zero_Shot_Iter-560; Correlation_loss : 0.848; fk: 94.03%
+KNN Acc : 22.781825975139306 , Discriminator Classifier Acc : 0.0
+AUC Score is 0.111
+KNN Acc : 23.896270895842264 , Discriminator Classifier Acc : 0.02143163309044149
+AUC Score is 0.1214
+Iter-580; Was_D: 5.015; Euc_ls: 3.909; reg_ls: 3.287; Wz_ls: 0.1297; G_loss: 2.854; Correlation_loss : 12.82 ; D_loss_real: 7.795; D_loss_fake: 2.779; rl: 99.9%; fk: 99.9%
+Zero_Shot_Iter-580; Correlation_loss : 1.687; fk: 100.0%
+KNN Acc : 23.414059151307328 , Discriminator Classifier Acc : 0.03214744963566224
+AUC Score is 0.1249
+KNN Acc : 24.196313759108445 , Discriminator Classifier Acc : 0.02143163309044149
+AUC Score is 0.13
+Iter-600; Was_D: 4.624; Euc_ls: 4.1; reg_ls: 3.171; Wz_ls: 0.1148; G_loss: 3.29; Correlation_loss : 12.55 ; D_loss_real: 7.909; D_loss_fake: 3.285; rl: 99.6%; fk: 99.9%
+Zero_Shot_Iter-600; Correlation_loss : 2.164; fk: 100.0%
+KNN Acc : 25.20360051435919 , Discriminator Classifier Acc : 0.03214744963566224
+AUC Score is 0.1352
+KNN Acc : 25.61080154307758 , Discriminator Classifier Acc : 0.08572653236176596
+AUC Score is 0.1368
+Iter-620; Was_D: 4.493; Euc_ls: 4.112; reg_ls: 3.084; Wz_ls: 0.1058; G_loss: 3.494; Correlation_loss : 12.23 ; D_loss_real: 7.994; D_loss_fake: 3.501; rl: 99.8%; fk: 99.5%
+Zero_Shot_Iter-620; Correlation_loss : 2.536; fk: 100.0%
+KNN Acc : 26.307329618516935 , Discriminator Classifier Acc : 0.08572653236176596
+AUC Score is 0.1401
+KNN Acc : 26.510930132876126 , Discriminator Classifier Acc : 0.09644234890698672
+AUC Score is 0.1484
+Iter-640; Was_D: 4.547; Euc_ls: 4.149; reg_ls: 3.015; Wz_ls: 0.101; G_loss: 3.365; Correlation_loss : 11.43 ; D_loss_real: 7.921; D_loss_fake: 3.374; rl: 99.8%; fk: 100.0%
+Zero_Shot_Iter-640; Correlation_loss : 3.014; fk: 100.0%
+KNN Acc : 26.7038148306901 , Discriminator Classifier Acc : 0.09644234890698672
+AUC Score is 0.1495
+KNN Acc : 27.33604800685812 , Discriminator Classifier Acc : 0.09644234890698672
+AUC Score is 0.1538
+Iter-660; Was_D: 4.706; Euc_ls: 4.17; reg_ls: 2.95; Wz_ls: 0.09799; G_loss: 3.206; Correlation_loss : 11.5 ; D_loss_real: 7.883; D_loss_fake: 3.177; rl: 99.7%; fk: 100.0%
+Zero_Shot_Iter-660; Correlation_loss : 3.412; fk: 100.0%
+KNN Acc : 27.239605657951138 , Discriminator Classifier Acc : 0.10715816545220747
+AUC Score is 0.155
+KNN Acc : 27.47535362194599 , Discriminator Classifier Acc : 0.12858979854264896
+AUC Score is 0.1555
+Iter-680; Was_D: 4.948; Euc_ls: 4.025; reg_ls: 2.889; Wz_ls: 0.09602; G_loss: 3.098; Correlation_loss : 11.83 ; D_loss_real: 7.981; D_loss_fake: 3.033; rl: 99.8%; fk: 99.9%
+Zero_Shot_Iter-680; Correlation_loss : 3.749; fk: 100.0%
+KNN Acc : 28.546935276468066 , Discriminator Classifier Acc : 0.16073724817831117
+AUC Score is 0.1586
+KNN Acc : 27.78611230175739 , Discriminator Classifier Acc : 0.21431633090441493
+AUC Score is 0.1599
+Iter-700; Was_D: 5.05; Euc_ls: 4.061; reg_ls: 2.83; Wz_ls: 0.09463; G_loss: 2.991; Correlation_loss : 12.28 ; D_loss_real: 7.942; D_loss_fake: 2.892; rl: 99.9%; fk: 100.0%
+Zero_Shot_Iter-700; Correlation_loss : 3.977; fk: 100.0%
+KNN Acc : 28.407629661380195 , Discriminator Classifier Acc : 0.2786112301757394
+AUC Score is 0.1583
+KNN Acc : 28.675525075010714 , Discriminator Classifier Acc : 0.2893270467209601
+AUC Score is 0.1582
+Iter-720; Was_D: 4.877; Euc_ls: 4.018; reg_ls: 2.772; Wz_ls: 0.09325; G_loss: 2.896; Correlation_loss : 12.48 ; D_loss_real: 7.767; D_loss_fake: 2.891; rl: 99.9%; fk: 100.0%
+Zero_Shot_Iter-720; Correlation_loss : 4.176; fk: 100.0%
+KNN Acc : 28.354050578654093 , Discriminator Classifier Acc : 0.3107586798114016
+AUC Score is 0.1589
+KNN Acc : 28.236176596656666 , Discriminator Classifier Acc : 0.2786112301757394
+AUC Score is 0.1584
+Iter-740; Was_D: 5.125; Euc_ls: 3.974; reg_ls: 2.717; Wz_ls: 0.09226; G_loss: 2.853; Correlation_loss : 12.24 ; D_loss_real: 7.927; D_loss_fake: 2.802; rl: 99.9%; fk: 99.8%
+Zero_Shot_Iter-740; Correlation_loss : 4.399; fk: 100.0%
+KNN Acc : 28.729104157736817 , Discriminator Classifier Acc : 0.32147449635662234
+AUC Score is 0.1649
+KNN Acc : 29.222031718816975 , Discriminator Classifier Acc : 0.37505357908272613
+AUC Score is 0.1633
+Iter-760; Was_D: 4.987; Euc_ls: 3.851; reg_ls: 2.662; Wz_ls: 0.09129; G_loss: 2.782; Correlation_loss : 12.44 ; D_loss_real: 7.72; D_loss_fake: 2.732; rl: 100.0%; fk: 99.9%
+Zero_Shot_Iter-760; Correlation_loss : 4.511; fk: 100.0%
+KNN Acc : 29.361337333904842 , Discriminator Classifier Acc : 0.39648521217316757
+AUC Score is 0.1653
+KNN Acc : 29.382768966995286 , Discriminator Classifier Acc : 0.47149592798971285
+AUC Score is 0.1714
+Iter-780; Was_D: 5.023; Euc_ls: 4.008; reg_ls: 2.611; Wz_ls: 0.09045; G_loss: 2.731; Correlation_loss : 12.48 ; D_loss_real: 7.719; D_loss_fake: 2.696; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-780; Correlation_loss : 4.705; fk: 100.0%
+KNN Acc : 29.10415773681955 , Discriminator Classifier Acc : 0.42863266180882986
+AUC Score is 0.1702
+KNN Acc : 29.60780111444492 , Discriminator Classifier Acc : 0.42863266180882986
+AUC Score is 0.1732
+Iter-800; Was_D: 5.064; Euc_ls: 3.889; reg_ls: 2.561; Wz_ls: 0.0897; G_loss: 2.693; Correlation_loss : 11.88 ; D_loss_real: 7.727; D_loss_fake: 2.664; rl: 99.9%; fk: 100.0%
+Zero_Shot_Iter-800; Correlation_loss : 4.876; fk: 100.0%
+KNN Acc : 29.88641234462066 , Discriminator Classifier Acc : 0.45006429489927136
+AUC Score is 0.1709
+KNN Acc : 29.62923274753536 , Discriminator Classifier Acc : 0.45006429489927136
+AUC Score is 0.1705
+Iter-820; Was_D: 5.06; Euc_ls: 3.96; reg_ls: 2.511; Wz_ls: 0.08914; G_loss: 2.597; Correlation_loss : 12.3 ; D_loss_real: 7.587; D_loss_fake: 2.526; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-820; Correlation_loss : 5.007; fk: 100.0%
+KNN Acc : 29.811401628804113 , Discriminator Classifier Acc : 0.46078011144449205
+AUC Score is 0.1743
+KNN Acc : 30.582940420060005 , Discriminator Classifier Acc : 0.48221174453493354
+AUC Score is 0.173
+Iter-840; Was_D: 5.182; Euc_ls: 3.843; reg_ls: 2.464; Wz_ls: 0.08852; G_loss: 2.536; Correlation_loss : 12.33 ; D_loss_real: 7.66; D_loss_fake: 2.478; rl: 99.9%; fk: 100.0%
+Zero_Shot_Iter-840; Correlation_loss : 5.142; fk: 100.0%
+KNN Acc : 30.03643377625375 , Discriminator Classifier Acc : 0.48221174453493354
+AUC Score is 0.1756
+KNN Acc : 29.80068581225889 , Discriminator Classifier Acc : 0.5357908272610373
+AUC Score is 0.1759
+Iter-860; Was_D: 5.001; Euc_ls: 3.84; reg_ls: 2.418; Wz_ls: 0.0881; G_loss: 2.496; Correlation_loss : 12.84 ; D_loss_real: 7.455; D_loss_fake: 2.454; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-860; Correlation_loss : 5.311; fk: 100.0%
+KNN Acc : 30.229318474067725 , Discriminator Classifier Acc : 0.503643377625375
+AUC Score is 0.1776
+KNN Acc : 30.261465923703383 , Discriminator Classifier Acc : 0.43934847835405055
+AUC Score is 0.1717
+Iter-880; Was_D: 5.319; Euc_ls: 3.8; reg_ls: 2.372; Wz_ls: 0.08759; G_loss: 2.382; Correlation_loss : 12.66 ; D_loss_real: 7.627; D_loss_fake: 2.309; rl: 100.0%; fk: 99.9%
+Zero_Shot_Iter-880; Correlation_loss : 5.343; fk: 100.0%
+KNN Acc : 30.20788684097728 , Discriminator Classifier Acc : 0.49292756108015434
+AUC Score is 0.1792
+KNN Acc : 30.34719245606515 , Discriminator Classifier Acc : 0.503643377625375
+AUC Score is 0.1817
+Iter-900; Was_D: 5.185; Euc_ls: 3.654; reg_ls: 2.329; Wz_ls: 0.08744; G_loss: 2.384; Correlation_loss : 12.19 ; D_loss_real: 7.509; D_loss_fake: 2.324; rl: 100.0%; fk: 99.8%
+Zero_Shot_Iter-900; Correlation_loss : 5.48; fk: 100.0%
+KNN Acc : 30.625803686240893 , Discriminator Classifier Acc : 0.45006429489927136
+AUC Score is 0.1823
+KNN Acc : 30.840120017145306 , Discriminator Classifier Acc : 0.5143591941705958
+AUC Score is 0.1848
+Iter-920; Was_D: 5.23; Euc_ls: 3.618; reg_ls: 2.285; Wz_ls: 0.08695; G_loss: 2.356; Correlation_loss : 12.53 ; D_loss_real: 7.53; D_loss_fake: 2.3; rl: 100.0%; fk: 99.8%
+Zero_Shot_Iter-920; Correlation_loss : 5.464; fk: 100.0%
+KNN Acc : 30.968709815687955 , Discriminator Classifier Acc : 0.43934847835405055
+AUC Score is 0.1826
+KNN Acc : 31.022288898414057 , Discriminator Classifier Acc : 0.42863266180882986
+AUC Score is 0.1815
+Iter-940; Was_D: 5.227; Euc_ls: 3.783; reg_ls: 2.242; Wz_ls: 0.08657; G_loss: 2.281; Correlation_loss : 12.56 ; D_loss_real: 7.431; D_loss_fake: 2.204; rl: 100.0%; fk: 99.9%
+Zero_Shot_Iter-940; Correlation_loss : 5.652; fk: 100.0%
+KNN Acc : 31.065152164594945 , Discriminator Classifier Acc : 0.503643377625375
+AUC Score is 0.1875
+KNN Acc : 30.572224603514787 , Discriminator Classifier Acc : 0.49292756108015434
+AUC Score is 0.182
+Iter-960; Was_D: 5.24; Euc_ls: 3.661; reg_ls: 2.201; Wz_ls: 0.08639; G_loss: 2.111; Correlation_loss : 12.85 ; D_loss_real: 7.324; D_loss_fake: 2.084; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-960; Correlation_loss : 5.617; fk: 100.0%
+KNN Acc : 31.108015430775826 , Discriminator Classifier Acc : 0.45006429489927136
+AUC Score is 0.1812
+KNN Acc : 30.443634804972135 , Discriminator Classifier Acc : 0.546506643806258
+AUC Score is 0.1831
+Iter-980; Was_D: 5.39; Euc_ls: 3.735; reg_ls: 2.159; Wz_ls: 0.08591; G_loss: 2.13; Correlation_loss : 13.28 ; D_loss_real: 7.49; D_loss_fake: 2.1; rl: 100.0%; fk: 99.9%
+Zero_Shot_Iter-980; Correlation_loss : 5.829; fk: 100.0%
+KNN Acc : 30.34719245606515 , Discriminator Classifier Acc : 0.49292756108015434
+AUC Score is 0.1826
+KNN Acc : 30.861551650235747 , Discriminator Classifier Acc : 0.39648521217316757
+AUC Score is 0.1849
+Iter-1000; Was_D: 5.409; Euc_ls: 3.665; reg_ls: 2.12; Wz_ls: 0.08573; G_loss: 2.146; Correlation_loss : 12.56 ; D_loss_real: 7.48; D_loss_fake: 2.072; rl: 100.0%; fk: 99.9%
+Zero_Shot_Iter-1000; Correlation_loss : 5.903; fk: 100.0%
+KNN Acc : 31.63309044149164 , Discriminator Classifier Acc : 0.43934847835405055
+AUC Score is 0.1891
+KNN Acc : 31.247321045863696 , Discriminator Classifier Acc : 0.47149592798971285
+AUC Score is 0.1881
+Iter-1020; Was_D: 5.391; Euc_ls: 3.591; reg_ls: 2.08; Wz_ls: 0.08546; G_loss: 2.014; Correlation_loss : 12.54 ; D_loss_real: 7.405; D_loss_fake: 2.013; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-1020; Correlation_loss : 5.964; fk: 100.0%
+KNN Acc : 31.48306900985855 , Discriminator Classifier Acc : 0.42863266180882986
+AUC Score is 0.1911
+KNN Acc : 31.46163737676811 , Discriminator Classifier Acc : 0.47149592798971285
+AUC Score is 0.1898
+Iter-1040; Was_D: 5.462; Euc_ls: 3.579; reg_ls: 2.043; Wz_ls: 0.0851; G_loss: 2.0; Correlation_loss : 12.91 ; D_loss_real: 7.423; D_loss_fake: 1.961; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-1040; Correlation_loss : 6.049; fk: 100.0%
+KNN Acc : 31.41877411058723 , Discriminator Classifier Acc : 0.46078011144449205
+AUC Score is 0.192
+KNN Acc : 32.254607801114446 , Discriminator Classifier Acc : 0.42863266180882986
+AUC Score is 0.1911
+Iter-1060; Was_D: 5.437; Euc_ls: 3.549; reg_ls: 2.006; Wz_ls: 0.08496; G_loss: 1.974; Correlation_loss : 12.75 ; D_loss_real: 7.351; D_loss_fake: 1.914; rl: 100.0%; fk: 99.9%
+Zero_Shot_Iter-1060; Correlation_loss : 6.073; fk: 99.97%
+KNN Acc : 31.91170167166738 , Discriminator Classifier Acc : 0.3857693956279469
+AUC Score is 0.194
+KNN Acc : 31.57951135876554 , Discriminator Classifier Acc : 0.45006429489927136
+AUC Score is 0.19
+Iter-1080; Was_D: 5.58; Euc_ls: 3.408; reg_ls: 1.97; Wz_ls: 0.08474; G_loss: 1.863; Correlation_loss : 13.07 ; D_loss_real: 7.362; D_loss_fake: 1.782; rl: 100.0%; fk: 99.9%
+Zero_Shot_Iter-1080; Correlation_loss : 6.168; fk: 100.0%
+KNN Acc : 31.247321045863696 , Discriminator Classifier Acc : 0.42863266180882986
+AUC Score is 0.1904
+KNN Acc : 31.98671238748393 , Discriminator Classifier Acc : 0.39648521217316757
+AUC Score is 0.1894
+Iter-1100; Was_D: 5.365; Euc_ls: 3.415; reg_ls: 1.935; Wz_ls: 0.08455; G_loss: 1.835; Correlation_loss : 12.97 ; D_loss_real: 7.151; D_loss_fake: 1.786; rl: 100.0%; fk: 99.9%
+Zero_Shot_Iter-1100; Correlation_loss : 6.126; fk: 100.0%
+KNN Acc : 31.268752678954137 , Discriminator Classifier Acc : 0.3857693956279469
+AUC Score is 0.189
+KNN Acc : 31.311615945135017 , Discriminator Classifier Acc : 0.3536219459922846
+AUC Score is 0.1906
+Iter-1120; Was_D: 5.59; Euc_ls: 3.542; reg_ls: 1.9; Wz_ls: 0.08428; G_loss: 1.752; Correlation_loss : 13.17 ; D_loss_real: 7.273; D_loss_fake: 1.683; rl: 100.0%; fk: 99.8%
+Zero_Shot_Iter-1120; Correlation_loss : 6.276; fk: 100.0%
+KNN Acc : 31.943849121303042 , Discriminator Classifier Acc : 0.40720102871838837
+AUC Score is 0.1936
+KNN Acc : 32.06172310330047 , Discriminator Classifier Acc : 0.43934847835405055
+AUC Score is 0.191
+Iter-1140; Was_D: 5.664; Euc_ls: 3.422; reg_ls: 1.866; Wz_ls: 0.08414; G_loss: 1.785; Correlation_loss : 13.11 ; D_loss_real: 7.398; D_loss_fake: 1.734; rl: 99.9%; fk: 100.0%
+Zero_Shot_Iter-1140; Correlation_loss : 6.173; fk: 100.0%
+KNN Acc : 31.77239605657951 , Discriminator Classifier Acc : 0.48221174453493354
+AUC Score is 0.1904
+KNN Acc : 31.943849121303042 , Discriminator Classifier Acc : 0.40720102871838837
+AUC Score is 0.1924
+Iter-1160; Was_D: 5.581; Euc_ls: 3.48; reg_ls: 1.835; Wz_ls: 0.08396; G_loss: 1.698; Correlation_loss : 13.26 ; D_loss_real: 7.229; D_loss_fake: 1.647; rl: 100.0%; fk: 99.9%
+Zero_Shot_Iter-1160; Correlation_loss : 6.232; fk: 100.0%
+KNN Acc : 31.8688384054865 , Discriminator Classifier Acc : 0.3857693956279469
+AUC Score is 0.1927
+KNN Acc : 32.32961851693099 , Discriminator Classifier Acc : 0.41791684526360906
+AUC Score is 0.1976
+Iter-1180; Was_D: 5.603; Euc_ls: 3.488; reg_ls: 1.803; Wz_ls: 0.08394; G_loss: 1.656; Correlation_loss : 12.99 ; D_loss_real: 7.215; D_loss_fake: 1.613; rl: 100.0%; fk: 99.9%
+Zero_Shot_Iter-1180; Correlation_loss : 6.396; fk: 100.0%
+KNN Acc : 32.20102871838834 , Discriminator Classifier Acc : 0.3857693956279469
+AUC Score is 0.2001
+KNN Acc : 31.89027003857694 , Discriminator Classifier Acc : 0.40720102871838837
+AUC Score is 0.1977
+Iter-1200; Was_D: 5.592; Euc_ls: 3.306; reg_ls: 1.772; Wz_ls: 0.0837; G_loss: 1.623; Correlation_loss : 12.48 ; D_loss_real: 7.19; D_loss_fake: 1.598; rl: 100.0%; fk: 99.9%
+Zero_Shot_Iter-1200; Correlation_loss : 6.386; fk: 100.0%
+KNN Acc : 31.975996570938705 , Discriminator Classifier Acc : 0.39648521217316757
+AUC Score is 0.1959
+KNN Acc : 31.8688384054865 , Discriminator Classifier Acc : 0.47149592798971285
+AUC Score is 0.1919
+Iter-1220; Was_D: 5.756; Euc_ls: 3.399; reg_ls: 1.743; Wz_ls: 0.08335; G_loss: 1.566; Correlation_loss : 13.46 ; D_loss_real: 7.31; D_loss_fake: 1.554; rl: 100.0%; fk: 99.9%
+Zero_Shot_Iter-1220; Correlation_loss : 6.432; fk: 100.0%
+KNN Acc : 32.693956279468495 , Discriminator Classifier Acc : 0.43934847835405055
+AUC Score is 0.1956
+KNN Acc : 32.554650664380624 , Discriminator Classifier Acc : 0.47149592798971285
+AUC Score is 0.1954
+Iter-1240; Was_D: 5.736; Euc_ls: 3.468; reg_ls: 1.714; Wz_ls: 0.08329; G_loss: 1.553; Correlation_loss : 13.12 ; D_loss_real: 7.238; D_loss_fake: 1.502; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-1240; Correlation_loss : 6.507; fk: 100.0%
+KNN Acc : 32.19031290184312 , Discriminator Classifier Acc : 0.41791684526360906
+AUC Score is 0.1956
+KNN Acc : 32.833261894556365 , Discriminator Classifier Acc : 0.3643377625375054
+AUC Score is 0.1991
+Iter-1260; Was_D: 5.655; Euc_ls: 3.318; reg_ls: 1.686; Wz_ls: 0.08315; G_loss: 1.476; Correlation_loss : 13.22 ; D_loss_real: 7.106; D_loss_fake: 1.451; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-1260; Correlation_loss : 6.45; fk: 100.0%
+KNN Acc : 33.283326189455636 , Discriminator Classifier Acc : 0.42863266180882986
+AUC Score is 0.1982
+KNN Acc : 32.99399914273467 , Discriminator Classifier Acc : 0.43934847835405055
+AUC Score is 0.1983
+Iter-1280; Was_D: 5.872; Euc_ls: 3.243; reg_ls: 1.659; Wz_ls: 0.08309; G_loss: 1.499; Correlation_loss : 12.74 ; D_loss_real: 7.292; D_loss_fake: 1.42; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-1280; Correlation_loss : 6.501; fk: 100.0%
+KNN Acc : 32.35105015002143 , Discriminator Classifier Acc : 0.32147449635662234
+AUC Score is 0.2023
+KNN Acc : 32.565366480925846 , Discriminator Classifier Acc : 0.37505357908272613
+AUC Score is 0.2001
+Iter-1300; Was_D: 5.811; Euc_ls: 3.382; reg_ls: 1.633; Wz_ls: 0.08304; G_loss: 1.495; Correlation_loss : 13.32 ; D_loss_real: 7.214; D_loss_fake: 1.403; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-1300; Correlation_loss : 6.573; fk: 100.0%
+KNN Acc : 33.07972567509644 , Discriminator Classifier Acc : 0.3643377625375054
+AUC Score is 0.1982
+KNN Acc : 32.88684097728247 , Discriminator Classifier Acc : 0.39648521217316757
+AUC Score is 0.2009
+Iter-1320; Was_D: 5.925; Euc_ls: 3.345; reg_ls: 1.608; Wz_ls: 0.08294; G_loss: 1.43; Correlation_loss : 13.07 ; D_loss_real: 7.321; D_loss_fake: 1.396; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-1320; Correlation_loss : 6.62; fk: 100.0%
+KNN Acc : 33.39048435490785 , Discriminator Classifier Acc : 0.42863266180882986
+AUC Score is 0.2043
+KNN Acc : 33.35833690527218 , Discriminator Classifier Acc : 0.39648521217316757
+AUC Score is 0.2017
+Iter-1340; Was_D: 5.691; Euc_ls: 3.43; reg_ls: 1.584; Wz_ls: 0.0827; G_loss: 1.361; Correlation_loss : 13.45 ; D_loss_real: 6.989; D_loss_fake: 1.298; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-1340; Correlation_loss : 6.685; fk: 100.0%
+KNN Acc : 32.565366480925846 , Discriminator Classifier Acc : 0.3643377625375054
+AUC Score is 0.2029
+KNN Acc : 32.876125160737246 , Discriminator Classifier Acc : 0.37505357908272613
+AUC Score is 0.2001
+Iter-1360; Was_D: 5.768; Euc_ls: 3.352; reg_ls: 1.56; Wz_ls: 0.08266; G_loss: 1.264; Correlation_loss : 13.56 ; D_loss_real: 7.016; D_loss_fake: 1.248; rl: 99.9%; fk: 100.0%
+Zero_Shot_Iter-1360; Correlation_loss : 6.628; fk: 100.0%
+KNN Acc : 33.058294042006004 , Discriminator Classifier Acc : 0.41791684526360906
+AUC Score is 0.2039
+KNN Acc : 33.25117873981998 , Discriminator Classifier Acc : 0.3643377625375054
+AUC Score is 0.2039
+Iter-1380; Was_D: 5.844; Euc_ls: 3.3; reg_ls: 1.537; Wz_ls: 0.08247; G_loss: 1.279; Correlation_loss : 13.41 ; D_loss_real: 7.098; D_loss_fake: 1.254; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-1380; Correlation_loss : 6.675; fk: 100.0%
+KNN Acc : 33.43334762108873 , Discriminator Classifier Acc : 0.42863266180882986
+AUC Score is 0.2027
+KNN Acc : 33.25117873981998 , Discriminator Classifier Acc : 0.37505357908272613
+AUC Score is 0.2017
+Iter-1400; Was_D: 5.824; Euc_ls: 3.336; reg_ls: 1.515; Wz_ls: 0.08241; G_loss: 1.232; Correlation_loss : 13.5 ; D_loss_real: 7.026; D_loss_fake: 1.202; rl: 99.9%; fk: 100.0%
+Zero_Shot_Iter-1400; Correlation_loss : 6.612; fk: 100.0%
+KNN Acc : 33.44406343763395 , Discriminator Classifier Acc : 0.37505357908272613
+AUC Score is 0.2061
+KNN Acc : 33.66909558508359 , Discriminator Classifier Acc : 0.32147449635662234
+AUC Score is 0.2058
+Iter-1420; Was_D: 5.973; Euc_ls: 3.224; reg_ls: 1.494; Wz_ls: 0.08233; G_loss: 1.288; Correlation_loss : 13.21 ; D_loss_real: 7.195; D_loss_fake: 1.221; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-1420; Correlation_loss : 6.745; fk: 100.0%
+KNN Acc : 33.690527218174026 , Discriminator Classifier Acc : 0.34290612944706383
+AUC Score is 0.2106
+KNN Acc : 33.33690527218174 , Discriminator Classifier Acc : 0.37505357908272613
+AUC Score is 0.2061
+Iter-1440; Was_D: 6.012; Euc_ls: 3.296; reg_ls: 1.473; Wz_ls: 0.08221; G_loss: 1.27; Correlation_loss : 13.56 ; D_loss_real: 7.172; D_loss_fake: 1.16; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-1440; Correlation_loss : 6.729; fk: 100.0%
+KNN Acc : 33.861980282897555 , Discriminator Classifier Acc : 0.3321903129018431
+AUC Score is 0.2072
+KNN Acc : 33.5726532361766 , Discriminator Classifier Acc : 0.3321903129018431
+AUC Score is 0.2119
+Iter-1460; Was_D: 5.985; Euc_ls: 3.247; reg_ls: 1.453; Wz_ls: 0.08222; G_loss: 1.258; Correlation_loss : 13.42 ; D_loss_real: 7.146; D_loss_fake: 1.16; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-1460; Correlation_loss : 6.868; fk: 100.0%
+KNN Acc : 33.65837976853836 , Discriminator Classifier Acc : 0.37505357908272613
+AUC Score is 0.2096
+KNN Acc : 33.819117016716675 , Discriminator Classifier Acc : 0.39648521217316757
+AUC Score is 0.2062
+Iter-1480; Was_D: 5.946; Euc_ls: 3.284; reg_ls: 1.434; Wz_ls: 0.08216; G_loss: 1.123; Correlation_loss : 13.74 ; D_loss_real: 7.008; D_loss_fake: 1.062; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-1480; Correlation_loss : 6.872; fk: 100.0%
+KNN Acc : 34.05486498071153 , Discriminator Classifier Acc : 0.42863266180882986
+AUC Score is 0.2092
+KNN Acc : 33.679811401628804 , Discriminator Classifier Acc : 0.3857693956279469
+AUC Score is 0.2086
+Iter-1500; Was_D: 5.939; Euc_ls: 3.206; reg_ls: 1.416; Wz_ls: 0.08201; G_loss: 1.113; Correlation_loss : 13.64 ; D_loss_real: 7.04; D_loss_fake: 1.101; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-1500; Correlation_loss : 6.829; fk: 100.0%
+KNN Acc : 33.76553793399057 , Discriminator Classifier Acc : 0.40720102871838837
+AUC Score is 0.2093
+KNN Acc : 34.1941705957994 , Discriminator Classifier Acc : 0.39648521217316757
+AUC Score is 0.2137
+Iter-1520; Was_D: 5.978; Euc_ls: 3.213; reg_ls: 1.398; Wz_ls: 0.08201; G_loss: 1.082; Correlation_loss : 13.6 ; D_loss_real: 7.032; D_loss_fake: 1.054; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-1520; Correlation_loss : 6.82; fk: 100.0%
+KNN Acc : 33.733390484354906 , Discriminator Classifier Acc : 0.3857693956279469
+AUC Score is 0.21
+KNN Acc : 33.71195885126447 , Discriminator Classifier Acc : 0.39648521217316757
+AUC Score is 0.2071
+Iter-1540; Was_D: 6.034; Euc_ls: 3.197; reg_ls: 1.381; Wz_ls: 0.08176; G_loss: 1.048; Correlation_loss : 13.56 ; D_loss_real: 7.026; D_loss_fake: 0.992; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-1540; Correlation_loss : 6.799; fk: 100.0%
+KNN Acc : 33.6262323189027 , Discriminator Classifier Acc : 0.41791684526360906
+AUC Score is 0.209
+KNN Acc : 33.84054864980712 , Discriminator Classifier Acc : 0.37505357908272613
+AUC Score is 0.2028
+Iter-1560; Was_D: 6.058; Euc_ls: 3.195; reg_ls: 1.364; Wz_ls: 0.08174; G_loss: 1.011; Correlation_loss : 14.13 ; D_loss_real: 7.048; D_loss_fake: 0.9901; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-1560; Correlation_loss : 6.863; fk: 100.0%
+KNN Acc : 34.129875696528075 , Discriminator Classifier Acc : 0.42863266180882986
+AUC Score is 0.2111
+KNN Acc : 34.044149164166306 , Discriminator Classifier Acc : 0.37505357908272613
+AUC Score is 0.2122
+Iter-1580; Was_D: 6.074; Euc_ls: 3.224; reg_ls: 1.347; Wz_ls: 0.08178; G_loss: 0.9608; Correlation_loss : 13.74 ; D_loss_real: 6.985; D_loss_fake: 0.9111; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-1580; Correlation_loss : 6.867; fk: 100.0%
+KNN Acc : 33.66909558508359 , Discriminator Classifier Acc : 0.3321903129018431
+AUC Score is 0.2039
+KNN Acc : 33.315473639091294 , Discriminator Classifier Acc : 0.40720102871838837
+AUC Score is 0.2069
+Iter-1600; Was_D: 6.059; Euc_ls: 3.214; reg_ls: 1.332; Wz_ls: 0.08154; G_loss: 0.9467; Correlation_loss : 13.75 ; D_loss_real: 6.935; D_loss_fake: 0.8754; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-1600; Correlation_loss : 6.959; fk: 100.0%
+KNN Acc : 34.001285897985426 , Discriminator Classifier Acc : 0.3643377625375054
+AUC Score is 0.2107
+KNN Acc : 33.883411915988 , Discriminator Classifier Acc : 0.3643377625375054
+AUC Score is 0.2095
+Iter-1620; Was_D: 6.045; Euc_ls: 3.148; reg_ls: 1.318; Wz_ls: 0.08159; G_loss: 0.9001; Correlation_loss : 13.39 ; D_loss_real: 6.911; D_loss_fake: 0.8657; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-1620; Correlation_loss : 6.984; fk: 100.0%
+KNN Acc : 33.65837976853836 , Discriminator Classifier Acc : 0.3643377625375054
+AUC Score is 0.2117
+KNN Acc : 33.96913844834976 , Discriminator Classifier Acc : 0.40720102871838837
+AUC Score is 0.2072
+Iter-1640; Was_D: 5.986; Euc_ls: 3.268; reg_ls: 1.303; Wz_ls: 0.08153; G_loss: 0.8628; Correlation_loss : 13.94 ; D_loss_real: 6.779; D_loss_fake: 0.793; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-1640; Correlation_loss : 6.898; fk: 100.0%
+KNN Acc : 33.497642520360046 , Discriminator Classifier Acc : 0.34290612944706383
+AUC Score is 0.209
+KNN Acc : 34.001285897985426 , Discriminator Classifier Acc : 0.3643377625375054
+AUC Score is 0.2117
+Iter-1660; Was_D: 6.09; Euc_ls: 3.217; reg_ls: 1.289; Wz_ls: 0.0814; G_loss: 0.8065; Correlation_loss : 13.23 ; D_loss_real: 6.84; D_loss_fake: 0.7503; rl: 100.0%; fk: 99.9%
+Zero_Shot_Iter-1660; Correlation_loss : 7.008; fk: 100.0%
+KNN Acc : 34.10844406343763 , Discriminator Classifier Acc : 0.3321903129018431
+AUC Score is 0.2076
+KNN Acc : 33.76553793399057 , Discriminator Classifier Acc : 0.3857693956279469
+AUC Score is 0.2129
+Iter-1680; Was_D: 6.058; Euc_ls: 3.129; reg_ls: 1.276; Wz_ls: 0.08142; G_loss: 0.8228; Correlation_loss : 13.74 ; D_loss_real: 6.85; D_loss_fake: 0.7921; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-1680; Correlation_loss : 6.906; fk: 100.0%
+KNN Acc : 33.97985426489499 , Discriminator Classifier Acc : 0.3536219459922846
+AUC Score is 0.2089
+KNN Acc : 33.58336905272182 , Discriminator Classifier Acc : 0.3643377625375054
+AUC Score is 0.2073
+Iter-1700; Was_D: 6.07; Euc_ls: 3.104; reg_ls: 1.264; Wz_ls: 0.08133; G_loss: 0.813; Correlation_loss : 13.5 ; D_loss_real: 6.814; D_loss_fake: 0.744; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-1700; Correlation_loss : 6.953; fk: 100.0%
+KNN Acc : 33.94770681525932 , Discriminator Classifier Acc : 0.3107586798114016
+AUC Score is 0.2112
+KNN Acc : 34.33347621088727 , Discriminator Classifier Acc : 0.34290612944706383
+AUC Score is 0.2105
+Iter-1720; Was_D: 5.961; Euc_ls: 3.203; reg_ls: 1.252; Wz_ls: 0.08138; G_loss: 0.7647; Correlation_loss : 13.81 ; D_loss_real: 6.693; D_loss_fake: 0.7321; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-1720; Correlation_loss : 6.889; fk: 100.0%
+KNN Acc : 33.74410630090013 , Discriminator Classifier Acc : 0.3536219459922846
+AUC Score is 0.2096
+KNN Acc : 33.819117016716675 , Discriminator Classifier Acc : 0.3107586798114016
+AUC Score is 0.208
+Iter-1740; Was_D: 6.239; Euc_ls: 3.126; reg_ls: 1.24; Wz_ls: 0.08127; G_loss: 0.7539; Correlation_loss : 13.62 ; D_loss_real: 6.984; D_loss_fake: 0.7448; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-1740; Correlation_loss : 6.983; fk: 100.0%
+KNN Acc : 33.64766395199314 , Discriminator Classifier Acc : 0.34290612944706383
+AUC Score is 0.2122
+KNN Acc : 34.23703386198028 , Discriminator Classifier Acc : 0.3536219459922846
+AUC Score is 0.215
+Iter-1760; Was_D: 6.209; Euc_ls: 3.151; reg_ls: 1.229; Wz_ls: 0.0813; G_loss: 0.7805; Correlation_loss : 13.4 ; D_loss_real: 6.898; D_loss_fake: 0.6891; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-1760; Correlation_loss : 7.0; fk: 100.0%
+KNN Acc : 34.02271753107587 , Discriminator Classifier Acc : 0.3536219459922846
+AUC Score is 0.211
+KNN Acc : 34.719245606515216 , Discriminator Classifier Acc : 0.34290612944706383
+AUC Score is 0.2165
+Iter-1780; Was_D: 6.209; Euc_ls: 3.172; reg_ls: 1.217; Wz_ls: 0.0811; G_loss: 0.6874; Correlation_loss : 13.81 ; D_loss_real: 6.837; D_loss_fake: 0.6278; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-1780; Correlation_loss : 7.011; fk: 100.0%
+KNN Acc : 34.09772824689241 , Discriminator Classifier Acc : 0.34290612944706383
+AUC Score is 0.2114
+KNN Acc : 33.819117016716675 , Discriminator Classifier Acc : 0.3643377625375054
+AUC Score is 0.2099
+Iter-1800; Was_D: 6.141; Euc_ls: 3.253; reg_ls: 1.206; Wz_ls: 0.08095; G_loss: 0.6636; Correlation_loss : 13.96 ; D_loss_real: 6.745; D_loss_fake: 0.6042; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-1800; Correlation_loss : 7.005; fk: 100.0%
+KNN Acc : 34.226318045435065 , Discriminator Classifier Acc : 0.3643377625375054
+AUC Score is 0.2152
+KNN Acc : 33.594084869267036 , Discriminator Classifier Acc : 0.3536219459922846
+AUC Score is 0.2123
+Iter-1820; Was_D: 6.343; Euc_ls: 3.113; reg_ls: 1.197; Wz_ls: 0.08085; G_loss: 0.6429; Correlation_loss : 13.62 ; D_loss_real: 6.849; D_loss_fake: 0.5063; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-1820; Correlation_loss : 7.033; fk: 100.0%
+KNN Acc : 34.29061294470639 , Discriminator Classifier Acc : 0.3321903129018431
+AUC Score is 0.2105
+KNN Acc : 34.987141020145735 , Discriminator Classifier Acc : 0.3643377625375054
+AUC Score is 0.2154
+Iter-1840; Was_D: 6.303; Euc_ls: 3.19; reg_ls: 1.187; Wz_ls: 0.08084; G_loss: 0.6505; Correlation_loss : 13.88 ; D_loss_real: 6.89; D_loss_fake: 0.5876; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-1840; Correlation_loss : 7.109; fk: 100.0%
+KNN Acc : 34.48349764252036 , Discriminator Classifier Acc : 0.3321903129018431
+AUC Score is 0.2146
+KNN Acc : 33.85126446635234 , Discriminator Classifier Acc : 0.40720102871838837
+AUC Score is 0.2163
+Iter-1860; Was_D: 6.135; Euc_ls: 3.066; reg_ls: 1.178; Wz_ls: 0.08078; G_loss: 0.5882; Correlation_loss : 13.52 ; D_loss_real: 6.711; D_loss_fake: 0.5765; rl: 99.9%; fk: 100.0%
+Zero_Shot_Iter-1860; Correlation_loss : 7.005; fk: 100.0%
+KNN Acc : 34.269181311615945 , Discriminator Classifier Acc : 0.3643377625375054
+AUC Score is 0.2135
+KNN Acc : 34.20488641234462 , Discriminator Classifier Acc : 0.3536219459922846
+AUC Score is 0.2111
+Iter-1880; Was_D: 6.345; Euc_ls: 2.953; reg_ls: 1.169; Wz_ls: 0.08088; G_loss: 0.6074; Correlation_loss : 13.02 ; D_loss_real: 6.917; D_loss_fake: 0.5714; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-1880; Correlation_loss : 7.102; fk: 100.0%
+KNN Acc : 34.51564509215602 , Discriminator Classifier Acc : 0.34290612944706383
+AUC Score is 0.212
+KNN Acc : 34.18345477925418 , Discriminator Classifier Acc : 0.34290612944706383
+AUC Score is 0.2117
+Iter-1900; Was_D: 6.122; Euc_ls: 3.177; reg_ls: 1.159; Wz_ls: 0.0807; G_loss: 0.6084; Correlation_loss : 13.38 ; D_loss_real: 6.686; D_loss_fake: 0.5642; rl: 99.9%; fk: 100.0%
+Zero_Shot_Iter-1900; Correlation_loss : 7.097; fk: 100.0%
+KNN Acc : 34.4513501928847 , Discriminator Classifier Acc : 0.2893270467209601
+AUC Score is 0.2158
+KNN Acc : 34.676382340334335 , Discriminator Classifier Acc : 0.30004286326618085
+AUC Score is 0.2149
+Iter-1920; Was_D: 6.264; Euc_ls: 3.06; reg_ls: 1.151; Wz_ls: 0.08075; G_loss: 0.5384; Correlation_loss : 13.35 ; D_loss_real: 6.752; D_loss_fake: 0.4881; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-1920; Correlation_loss : 7.012; fk: 100.0%
+KNN Acc : 34.23703386198028 , Discriminator Classifier Acc : 0.2786112301757394
+AUC Score is 0.2126
+KNN Acc : 34.42991855979425 , Discriminator Classifier Acc : 0.34290612944706383
+AUC Score is 0.214
+Iter-1940; Was_D: 6.312; Euc_ls: 3.128; reg_ls: 1.143; Wz_ls: 0.08058; G_loss: 0.5457; Correlation_loss : 13.6 ; D_loss_real: 6.767; D_loss_fake: 0.4545; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-1940; Correlation_loss : 7.126; fk: 100.0%
+KNN Acc : 34.7621088726961 , Discriminator Classifier Acc : 0.32147449635662234
+AUC Score is 0.2173
+KNN Acc : 34.21560222888984 , Discriminator Classifier Acc : 0.3536219459922846
+AUC Score is 0.2155
+Iter-1960; Was_D: 6.25; Euc_ls: 3.116; reg_ls: 1.135; Wz_ls: 0.08058; G_loss: 0.4648; Correlation_loss : 14.06 ; D_loss_real: 6.676; D_loss_fake: 0.4263; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-1960; Correlation_loss : 7.061; fk: 100.0%
+KNN Acc : 34.20488641234462 , Discriminator Classifier Acc : 0.32147449635662234
+AUC Score is 0.2107
+KNN Acc : 34.41920274324903 , Discriminator Classifier Acc : 0.3321903129018431
+AUC Score is 0.214
+Iter-1980; Was_D: 6.342; Euc_ls: 3.21; reg_ls: 1.127; Wz_ls: 0.0804; G_loss: 0.4163; Correlation_loss : 14.14 ; D_loss_real: 6.7; D_loss_fake: 0.3581; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-1980; Correlation_loss : 7.117; fk: 100.0%
+KNN Acc : 34.18345477925418 , Discriminator Classifier Acc : 0.32147449635662234
+AUC Score is 0.2145
+KNN Acc : 33.99057008144021 , Discriminator Classifier Acc : 0.34290612944706383
+AUC Score is 0.2137
+Iter-2000; Was_D: 6.302; Euc_ls: 3.066; reg_ls: 1.121; Wz_ls: 0.08052; G_loss: 0.4861; Correlation_loss : 13.96 ; D_loss_real: 6.777; D_loss_fake: 0.475; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-2000; Correlation_loss : 7.1; fk: 100.0%
+KNN Acc : 34.32276039434205 , Discriminator Classifier Acc : 0.3321903129018431
+AUC Score is 0.2131
+KNN Acc : 34.86926703814831 , Discriminator Classifier Acc : 0.3643377625375054
+AUC Score is 0.218
+Iter-2020; Was_D: 6.294; Euc_ls: 2.996; reg_ls: 1.113; Wz_ls: 0.08041; G_loss: 0.4238; Correlation_loss : 13.6 ; D_loss_real: 6.703; D_loss_fake: 0.4093; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-2020; Correlation_loss : 7.096; fk: 100.0%
+KNN Acc : 34.34419202743249 , Discriminator Classifier Acc : 0.43934847835405055
+AUC Score is 0.219
+KNN Acc : 34.54779254179169 , Discriminator Classifier Acc : 0.34290612944706383
+AUC Score is 0.216
+Iter-2040; Was_D: 6.363; Euc_ls: 3.152; reg_ls: 1.106; Wz_ls: 0.08039; G_loss: 0.436; Correlation_loss : 13.76 ; D_loss_real: 6.741; D_loss_fake: 0.3774; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-2040; Correlation_loss : 7.192; fk: 100.0%
+KNN Acc : 34.62280325760823 , Discriminator Classifier Acc : 0.37505357908272613
+AUC Score is 0.217
+KNN Acc : 34.62280325760823 , Discriminator Classifier Acc : 0.3536219459922846
+AUC Score is 0.2188
+Iter-2060; Was_D: 6.43; Euc_ls: 3.116; reg_ls: 1.099; Wz_ls: 0.08034; G_loss: 0.427; Correlation_loss : 13.99 ; D_loss_real: 6.766; D_loss_fake: 0.3359; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-2060; Correlation_loss : 7.12; fk: 100.0%
+KNN Acc : 34.5049292756108 , Discriminator Classifier Acc : 0.3321903129018431
+AUC Score is 0.2183
+KNN Acc : 33.85126446635234 , Discriminator Classifier Acc : 0.3536219459922846
+AUC Score is 0.2133
+Iter-2080; Was_D: 6.361; Euc_ls: 3.096; reg_ls: 1.094; Wz_ls: 0.08046; G_loss: 0.4174; Correlation_loss : 13.78 ; D_loss_real: 6.703; D_loss_fake: 0.3419; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-2080; Correlation_loss : 7.168; fk: 100.0%
+KNN Acc : 34.41920274324903 , Discriminator Classifier Acc : 0.34290612944706383
+AUC Score is 0.2156
+KNN Acc : 35.030004286326616 , Discriminator Classifier Acc : 0.30004286326618085
+AUC Score is 0.2216
+Iter-2100; Was_D: 6.319; Euc_ls: 3.074; reg_ls: 1.088; Wz_ls: 0.08041; G_loss: 0.3422; Correlation_loss : 13.72 ; D_loss_real: 6.63; D_loss_fake: 0.3112; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-2100; Correlation_loss : 7.179; fk: 100.0%
+KNN Acc : 34.93356193741963 , Discriminator Classifier Acc : 0.3321903129018431
+AUC Score is 0.2201
+KNN Acc : 34.21560222888984 , Discriminator Classifier Acc : 0.32147449635662234
+AUC Score is 0.2152
+Iter-2120; Was_D: 6.366; Euc_ls: 3.044; reg_ls: 1.082; Wz_ls: 0.08043; G_loss: 0.3523; Correlation_loss : 13.54 ; D_loss_real: 6.713; D_loss_fake: 0.347; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-2120; Correlation_loss : 7.162; fk: 100.0%
+KNN Acc : 34.226318045435065 , Discriminator Classifier Acc : 0.32147449635662234
+AUC Score is 0.2153
+KNN Acc : 34.633519074153455 , Discriminator Classifier Acc : 0.3321903129018431
+AUC Score is 0.2165
+Iter-2140; Was_D: 6.358; Euc_ls: 3.096; reg_ls: 1.076; Wz_ls: 0.08031; G_loss: 0.3619; Correlation_loss : 13.91 ; D_loss_real: 6.731; D_loss_fake: 0.373; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-2140; Correlation_loss : 7.102; fk: 100.0%
+KNN Acc : 34.25846549507072 , Discriminator Classifier Acc : 0.32147449635662234
+AUC Score is 0.2132
+KNN Acc : 34.269181311615945 , Discriminator Classifier Acc : 0.3536219459922846
+AUC Score is 0.2155
+Iter-2160; Was_D: 6.401; Euc_ls: 3.063; reg_ls: 1.071; Wz_ls: 0.08041; G_loss: 0.3675; Correlation_loss : 13.08 ; D_loss_real: 6.737; D_loss_fake: 0.3358; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-2160; Correlation_loss : 7.179; fk: 100.0%
+KNN Acc : 35.2764680668667 , Discriminator Classifier Acc : 0.3536219459922846
+AUC Score is 0.2172
+KNN Acc : 34.96570938705529 , Discriminator Classifier Acc : 0.3321903129018431
+AUC Score is 0.2192
+Iter-2180; Was_D: 6.392; Euc_ls: 3.01; reg_ls: 1.066; Wz_ls: 0.08038; G_loss: 0.3186; Correlation_loss : 13.63 ; D_loss_real: 6.716; D_loss_fake: 0.3237; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-2180; Correlation_loss : 7.16; fk: 100.0%
+KNN Acc : 34.494213459065584 , Discriminator Classifier Acc : 0.32147449635662234
+AUC Score is 0.2164
+KNN Acc : 34.397771110158594 , Discriminator Classifier Acc : 0.34290612944706383
+AUC Score is 0.2201
+Iter-2200; Was_D: 6.49; Euc_ls: 3.127; reg_ls: 1.062; Wz_ls: 0.08037; G_loss: 0.329; Correlation_loss : 13.72 ; D_loss_real: 6.772; D_loss_fake: 0.2825; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-2200; Correlation_loss : 7.157; fk: 100.0%
+KNN Acc : 34.4513501928847 , Discriminator Classifier Acc : 0.32147449635662234
+AUC Score is 0.2202
+KNN Acc : 34.99785683669096 , Discriminator Classifier Acc : 0.32147449635662234
+AUC Score is 0.2209
+Iter-2220; Was_D: 6.309; Euc_ls: 3.139; reg_ls: 1.057; Wz_ls: 0.08031; G_loss: 0.2643; Correlation_loss : 14.0 ; D_loss_real: 6.566; D_loss_fake: 0.2574; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-2220; Correlation_loss : 7.146; fk: 100.0%
+KNN Acc : 34.21560222888984 , Discriminator Classifier Acc : 0.32147449635662234
+AUC Score is 0.215
+KNN Acc : 34.2477496785255 , Discriminator Classifier Acc : 0.34290612944706383
+AUC Score is 0.2208
+Iter-2240; Was_D: 6.427; Euc_ls: 3.072; reg_ls: 1.052; Wz_ls: 0.08018; G_loss: 0.2614; Correlation_loss : 13.98 ; D_loss_real: 6.634; D_loss_fake: 0.2075; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-2240; Correlation_loss : 7.111; fk: 100.0%
+KNN Acc : 34.93356193741963 , Discriminator Classifier Acc : 0.34290612944706383
+AUC Score is 0.2194
+KNN Acc : 34.269181311615945 , Discriminator Classifier Acc : 0.3107586798114016
+AUC Score is 0.2198
+Iter-2260; Was_D: 6.375; Euc_ls: 3.136; reg_ls: 1.048; Wz_ls: 0.08035; G_loss: 0.2088; Correlation_loss : 14.56 ; D_loss_real: 6.496; D_loss_fake: 0.1209; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-2260; Correlation_loss : 7.171; fk: 100.0%
+KNN Acc : 34.987141020145735 , Discriminator Classifier Acc : 0.32147449635662234
+AUC Score is 0.221
+KNN Acc : 34.33347621088727 , Discriminator Classifier Acc : 0.32147449635662234
+AUC Score is 0.2176
+Iter-2280; Was_D: 6.42; Euc_ls: 3.011; reg_ls: 1.045; Wz_ls: 0.08032; G_loss: 0.2957; Correlation_loss : 13.51 ; D_loss_real: 6.641; D_loss_fake: 0.2212; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-2280; Correlation_loss : 7.234; fk: 100.0%
+KNN Acc : 34.47278182597514 , Discriminator Classifier Acc : 0.3321903129018431
+AUC Score is 0.2169
+KNN Acc : 34.23703386198028 , Discriminator Classifier Acc : 0.32147449635662234
+AUC Score is 0.2167
+Iter-2300; Was_D: 6.411; Euc_ls: 3.118; reg_ls: 1.041; Wz_ls: 0.08044; G_loss: 0.1604; Correlation_loss : 14.09 ; D_loss_real: 6.538; D_loss_fake: 0.127; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-2300; Correlation_loss : 7.148; fk: 100.0%
+KNN Acc : 34.16202314616374 , Discriminator Classifier Acc : 0.3643377625375054
+AUC Score is 0.2163
+KNN Acc : 34.69781397342477 , Discriminator Classifier Acc : 0.37505357908272613
+AUC Score is 0.2163
+Iter-2320; Was_D: 6.376; Euc_ls: 3.022; reg_ls: 1.037; Wz_ls: 0.08033; G_loss: 0.1783; Correlation_loss : 13.94 ; D_loss_real: 6.529; D_loss_fake: 0.1535; rl: 99.9%; fk: 100.0%
+Zero_Shot_Iter-2320; Correlation_loss : 7.254; fk: 100.0%
+KNN Acc : 34.269181311615945 , Discriminator Classifier Acc : 0.3857693956279469
+AUC Score is 0.2155
+KNN Acc : 34.51564509215602 , Discriminator Classifier Acc : 0.3536219459922846
+AUC Score is 0.2184
+Iter-2340; Was_D: 6.491; Euc_ls: 3.18; reg_ls: 1.033; Wz_ls: 0.08037; G_loss: 0.1492; Correlation_loss : 14.04 ; D_loss_real: 6.574; D_loss_fake: 0.08308; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-2340; Correlation_loss : 7.294; fk: 100.0%
+KNN Acc : 34.7621088726961 , Discriminator Classifier Acc : 0.3321903129018431
+AUC Score is 0.2207
+KNN Acc : 35.31933133304758 , Discriminator Classifier Acc : 0.3107586798114016
+AUC Score is 0.2235
+Iter-2360; Was_D: 6.526; Euc_ls: 3.063; reg_ls: 1.03; Wz_ls: 0.08039; G_loss: 0.218; Correlation_loss : 13.52 ; D_loss_real: 6.727; D_loss_fake: 0.201; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-2360; Correlation_loss : 7.232; fk: 100.0%
+KNN Acc : 34.78354050578654 , Discriminator Classifier Acc : 0.3107586798114016
+AUC Score is 0.2247
+KNN Acc : 35.04072010287184 , Discriminator Classifier Acc : 0.32147449635662234
+AUC Score is 0.22
+Iter-2380; Was_D: 6.429; Euc_ls: 3.029; reg_ls: 1.027; Wz_ls: 0.08037; G_loss: 0.1431; Correlation_loss : 13.82 ; D_loss_real: 6.542; D_loss_fake: 0.113; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-2380; Correlation_loss : 7.287; fk: 100.0%
+KNN Acc : 34.79425632233176 , Discriminator Classifier Acc : 0.3321903129018431
+AUC Score is 0.2208
+KNN Acc : 35.426489498499784 , Discriminator Classifier Acc : 0.3321903129018431
+AUC Score is 0.2249
+Iter-2400; Was_D: 6.545; Euc_ls: 3.098; reg_ls: 1.024; Wz_ls: 0.08024; G_loss: 0.1095; Correlation_loss : 13.73 ; D_loss_real: 6.606; D_loss_fake: 0.06048; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-2400; Correlation_loss : 7.227; fk: 100.0%
+KNN Acc : 34.92284612087441 , Discriminator Classifier Acc : 0.3321903129018431
+AUC Score is 0.2222
+KNN Acc : 34.99785683669096 , Discriminator Classifier Acc : 0.32147449635662234
+AUC Score is 0.2179
+Iter-2420; Was_D: 6.415; Euc_ls: 3.055; reg_ls: 1.021; Wz_ls: 0.08034; G_loss: 0.08804; Correlation_loss : 13.83 ; D_loss_real: 6.451; D_loss_fake: 0.03595; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-2420; Correlation_loss : 7.251; fk: 100.0%
+KNN Acc : 35.28718388341191 , Discriminator Classifier Acc : 0.2786112301757394
+AUC Score is 0.2226
+KNN Acc : 34.60137162451779 , Discriminator Classifier Acc : 0.26789541363051866
+AUC Score is 0.2201
+Iter-2440; Was_D: 6.367; Euc_ls: 3.023; reg_ls: 1.018; Wz_ls: 0.0805; G_loss: 0.04027; Correlation_loss : 13.71 ; D_loss_real: 6.365; D_loss_fake: -0.001863; rl: 100.0%; fk: 99.9%
+Zero_Shot_Iter-2440; Correlation_loss : 7.233; fk: 100.0%
+KNN Acc : 34.62280325760823 , Discriminator Classifier Acc : 0.3321903129018431
+AUC Score is 0.2203
+KNN Acc : 34.397771110158594 , Discriminator Classifier Acc : 0.2893270467209601
+AUC Score is 0.2201
+Iter-2460; Was_D: 6.406; Euc_ls: 3.008; reg_ls: 1.015; Wz_ls: 0.08031; G_loss: -0.0251; Correlation_loss : 13.6 ; D_loss_real: 6.33; D_loss_fake: -0.07538; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-2460; Correlation_loss : 7.193; fk: 100.0%
+KNN Acc : 34.96570938705529 , Discriminator Classifier Acc : 0.3107586798114016
+AUC Score is 0.2237
+KNN Acc : 34.68709815687955 , Discriminator Classifier Acc : 0.3107586798114016
+AUC Score is 0.2189
+Iter-2480; Was_D: 6.465; Euc_ls: 3.024; reg_ls: 1.013; Wz_ls: 0.08042; G_loss: -0.009448; Correlation_loss : 13.55 ; D_loss_real: 6.416; D_loss_fake: -0.04846; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-2480; Correlation_loss : 7.207; fk: 100.0%
+KNN Acc : 34.38705529361337 , Discriminator Classifier Acc : 0.32147449635662234
+AUC Score is 0.2208
+KNN Acc : 35.297899699957135 , Discriminator Classifier Acc : 0.2786112301757394
+AUC Score is 0.2241
+Iter-2500; Was_D: 6.443; Euc_ls: 3.058; reg_ls: 1.011; Wz_ls: 0.08043; G_loss: 0.07578; Correlation_loss : 13.77 ; D_loss_real: 6.396; D_loss_fake: -0.04766; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-2500; Correlation_loss : 7.287; fk: 100.0%
+KNN Acc : 35.255036433776255 , Discriminator Classifier Acc : 0.3107586798114016
+AUC Score is 0.2192
+KNN Acc : 35.45863694813545 , Discriminator Classifier Acc : 0.3107586798114016
+AUC Score is 0.2212
+Iter-2520; Was_D: 6.577; Euc_ls: 3.038; reg_ls: 1.008; Wz_ls: 0.0803; G_loss: -0.0117; Correlation_loss : 13.33 ; D_loss_real: 6.55; D_loss_fake: -0.02734; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-2520; Correlation_loss : 7.285; fk: 100.0%
+KNN Acc : 35.05143591941706 , Discriminator Classifier Acc : 0.26789541363051866
+AUC Score is 0.2231
+KNN Acc : 34.91213030432919 , Discriminator Classifier Acc : 0.2893270467209601
+AUC Score is 0.2173
+Iter-2540; Was_D: 6.456; Euc_ls: 3.088; reg_ls: 1.005; Wz_ls: 0.08025; G_loss: -0.05596; Correlation_loss : 13.84 ; D_loss_real: 6.34; D_loss_fake: -0.1166; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-2540; Correlation_loss : 7.188; fk: 100.0%
+KNN Acc : 35.019288469781394 , Discriminator Classifier Acc : 0.34290612944706383
+AUC Score is 0.2202
+KNN Acc : 34.72996142306044 , Discriminator Classifier Acc : 0.32147449635662234
+AUC Score is 0.2195
+Iter-2560; Was_D: 6.443; Euc_ls: 2.972; reg_ls: 1.002; Wz_ls: 0.08038; G_loss: -0.09528; Correlation_loss : 13.45 ; D_loss_real: 6.305; D_loss_fake: -0.1373; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-2560; Correlation_loss : 7.272; fk: 100.0%
+KNN Acc : 35.30861551650236 , Discriminator Classifier Acc : 0.32147449635662234
+AUC Score is 0.2248
+KNN Acc : 35.06215173596228 , Discriminator Classifier Acc : 0.3321903129018431
+AUC Score is 0.2214
+Iter-2580; Was_D: 6.487; Euc_ls: 2.987; reg_ls: 1.001; Wz_ls: 0.08037; G_loss: -0.0651; Correlation_loss : 13.32 ; D_loss_real: 6.375; D_loss_fake: -0.1127; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-2580; Correlation_loss : 7.312; fk: 100.0%
+KNN Acc : 35.6408058294042 , Discriminator Classifier Acc : 0.32147449635662234
+AUC Score is 0.2223
+KNN Acc : 35.41577368195456 , Discriminator Classifier Acc : 0.3536219459922846
+AUC Score is 0.2214
+Iter-2600; Was_D: 6.422; Euc_ls: 3.009; reg_ls: 0.9983; Wz_ls: 0.08035; G_loss: -0.1448; Correlation_loss : 13.77 ; D_loss_real: 6.261; D_loss_fake: -0.1601; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-2600; Correlation_loss : 7.287; fk: 100.0%
+KNN Acc : 35.28718388341191 , Discriminator Classifier Acc : 0.3107586798114016
+AUC Score is 0.2244
+KNN Acc : 35.36219459922847 , Discriminator Classifier Acc : 0.3536219459922846
+AUC Score is 0.2273
+Iter-2620; Was_D: 6.51; Euc_ls: 3.129; reg_ls: 0.9959; Wz_ls: 0.08025; G_loss: -0.06732; Correlation_loss : 13.89 ; D_loss_real: 6.382; D_loss_fake: -0.1283; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-2620; Correlation_loss : 7.288; fk: 100.0%
+KNN Acc : 35.222888984140596 , Discriminator Classifier Acc : 0.3107586798114016
+AUC Score is 0.2213
+KNN Acc : 35.158594084869264 , Discriminator Classifier Acc : 0.26789541363051866
+AUC Score is 0.2227
+Iter-2640; Was_D: 6.513; Euc_ls: 3.114; reg_ls: 0.9937; Wz_ls: 0.08028; G_loss: -0.1207; Correlation_loss : 13.78 ; D_loss_real: 6.322; D_loss_fake: -0.1914; rl: 100.0%; fk: 99.9%
+Zero_Shot_Iter-2640; Correlation_loss : 7.253; fk: 100.0%
+KNN Acc : 35.50150021431633 , Discriminator Classifier Acc : 0.24646378054007717
+AUC Score is 0.2246
+KNN Acc : 34.901414487783974 , Discriminator Classifier Acc : 0.34290612944706383
+AUC Score is 0.22
+Iter-2660; Was_D: 6.416; Euc_ls: 2.943; reg_ls: 0.9922; Wz_ls: 0.08035; G_loss: -0.1046; Correlation_loss : 13.94 ; D_loss_real: 6.286; D_loss_fake: -0.1298; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-2660; Correlation_loss : 7.261; fk: 100.0%
+KNN Acc : 35.083583369052725 , Discriminator Classifier Acc : 0.2786112301757394
+AUC Score is 0.2197
+KNN Acc : 34.7621088726961 , Discriminator Classifier Acc : 0.2786112301757394
+AUC Score is 0.2193
+Iter-2680; Was_D: 6.563; Euc_ls: 3.176; reg_ls: 0.9903; Wz_ls: 0.08047; G_loss: -0.2244; Correlation_loss : 14.24 ; D_loss_real: 6.316; D_loss_fake: -0.2469; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-2680; Correlation_loss : 7.328; fk: 100.0%
+KNN Acc : 34.804972138876984 , Discriminator Classifier Acc : 0.3321903129018431
+AUC Score is 0.2199
+KNN Acc : 35.330047149592794 , Discriminator Classifier Acc : 0.3321903129018431
+AUC Score is 0.2214
+Iter-2700; Was_D: 6.449; Euc_ls: 3.064; reg_ls: 0.9885; Wz_ls: 0.08031; G_loss: -0.1963; Correlation_loss : 13.65 ; D_loss_real: 6.224; D_loss_fake: -0.2249; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-2700; Correlation_loss : 7.296; fk: 100.0%
+KNN Acc : 35.083583369052725 , Discriminator Classifier Acc : 0.2786112301757394
+AUC Score is 0.2245
+KNN Acc : 35.28718388341191 , Discriminator Classifier Acc : 0.30004286326618085
+AUC Score is 0.2233
+Iter-2720; Was_D: 6.281; Euc_ls: 2.976; reg_ls: 0.9867; Wz_ls: 0.0803; G_loss: -0.1989; Correlation_loss : 13.52 ; D_loss_real: 6.025; D_loss_fake: -0.2563; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-2720; Correlation_loss : 7.322; fk: 100.0%
+KNN Acc : 35.533647663951996 , Discriminator Classifier Acc : 0.3536219459922846
+AUC Score is 0.2233
+KNN Acc : 35.083583369052725 , Discriminator Classifier Acc : 0.32147449635662234
+AUC Score is 0.2253
+Iter-2740; Was_D: 6.48; Euc_ls: 3.002; reg_ls: 0.9843; Wz_ls: 0.08007; G_loss: -0.2798; Correlation_loss : 13.88 ; D_loss_real: 6.143; D_loss_fake: -0.3369; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-2740; Correlation_loss : 7.327; fk: 100.0%
+KNN Acc : 35.14787826832404 , Discriminator Classifier Acc : 0.2893270467209601
+AUC Score is 0.2265
+KNN Acc : 34.95499357051008 , Discriminator Classifier Acc : 0.30004286326618085
+AUC Score is 0.2246
+Iter-2760; Was_D: 6.56; Euc_ls: 3.01; reg_ls: 0.9828; Wz_ls: 0.08011; G_loss: -0.2954; Correlation_loss : 14.18 ; D_loss_real: 6.219; D_loss_fake: -0.3406; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-2760; Correlation_loss : 7.258; fk: 100.0%
+KNN Acc : 34.92284612087441 , Discriminator Classifier Acc : 0.34290612944706383
+AUC Score is 0.2199
+KNN Acc : 35.169309901414486 , Discriminator Classifier Acc : 0.3536219459922846
+AUC Score is 0.224
+Iter-2780; Was_D: 6.503; Euc_ls: 2.998; reg_ls: 0.9812; Wz_ls: 0.08015; G_loss: -0.287; Correlation_loss : 13.49 ; D_loss_real: 6.208; D_loss_fake: -0.2953; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-2780; Correlation_loss : 7.341; fk: 100.0%
+KNN Acc : 35.36219459922847 , Discriminator Classifier Acc : 0.3107586798114016
+AUC Score is 0.224
+KNN Acc : 36.08015430775825 , Discriminator Classifier Acc : 0.2893270467209601
+AUC Score is 0.2261
+Iter-2800; Was_D: 6.546; Euc_ls: 3.027; reg_ls: 0.9794; Wz_ls: 0.08016; G_loss: -0.3451; Correlation_loss : 13.57 ; D_loss_real: 6.152; D_loss_fake: -0.3942; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-2800; Correlation_loss : 7.316; fk: 100.0%
+KNN Acc : 35.28718388341191 , Discriminator Classifier Acc : 0.30004286326618085
+AUC Score is 0.2238
+KNN Acc : 35.437205315045006 , Discriminator Classifier Acc : 0.30004286326618085
+AUC Score is 0.2272
+Iter-2820; Was_D: 6.576; Euc_ls: 3.092; reg_ls: 0.9782; Wz_ls: 0.08014; G_loss: -0.3087; Correlation_loss : 13.59 ; D_loss_real: 6.242; D_loss_fake: -0.3338; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-2820; Correlation_loss : 7.324; fk: 100.0%
+KNN Acc : 34.858551221603086 , Discriminator Classifier Acc : 0.2893270467209601
+AUC Score is 0.2253
+KNN Acc : 35.18002571795971 , Discriminator Classifier Acc : 0.2893270467209601
+AUC Score is 0.2206
+Iter-2840; Was_D: 6.555; Euc_ls: 2.999; reg_ls: 0.9766; Wz_ls: 0.08019; G_loss: -0.4097; Correlation_loss : 14.04 ; D_loss_real: 6.081; D_loss_fake: -0.4737; rl: 99.9%; fk: 100.0%
+Zero_Shot_Iter-2840; Correlation_loss : 7.306; fk: 100.0%
+KNN Acc : 35.40505786540935 , Discriminator Classifier Acc : 0.3321903129018431
+AUC Score is 0.2252
+KNN Acc : 35.844406343763396 , Discriminator Classifier Acc : 0.3321903129018431
+AUC Score is 0.227
+Iter-2860; Was_D: 6.602; Euc_ls: 3.022; reg_ls: 0.9749; Wz_ls: 0.08027; G_loss: -0.4336; Correlation_loss : 13.78 ; D_loss_real: 6.11; D_loss_fake: -0.4921; rl: 100.0%; fk: 99.8%
+Zero_Shot_Iter-2860; Correlation_loss : 7.343; fk: 100.0%
+KNN Acc : 34.858551221603086 , Discriminator Classifier Acc : 0.3107586798114016
+AUC Score is 0.2214
+KNN Acc : 34.99785683669096 , Discriminator Classifier Acc : 0.34290612944706383
+AUC Score is 0.2215
+Iter-2880; Was_D: 6.459; Euc_ls: 3.001; reg_ls: 0.9735; Wz_ls: 0.08018; G_loss: -0.4066; Correlation_loss : 13.54 ; D_loss_real: 6.016; D_loss_fake: -0.4425; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-2880; Correlation_loss : 7.375; fk: 100.0%
+KNN Acc : 35.480068581225886 , Discriminator Classifier Acc : 0.3321903129018431
+AUC Score is 0.2251
+KNN Acc : 35.608658379768535 , Discriminator Classifier Acc : 0.34290612944706383
+AUC Score is 0.2252
+Iter-2900; Was_D: 6.547; Euc_ls: 3.1; reg_ls: 0.9717; Wz_ls: 0.08009; G_loss: -0.4024; Correlation_loss : 14.24 ; D_loss_real: 6.146; D_loss_fake: -0.4011; rl: 99.9%; fk: 100.0%
+Zero_Shot_Iter-2900; Correlation_loss : 7.301; fk: 100.0%
+KNN Acc : 35.222888984140596 , Discriminator Classifier Acc : 0.3536219459922846
+AUC Score is 0.2272
+KNN Acc : 35.41577368195456 , Discriminator Classifier Acc : 0.3857693956279469
+AUC Score is 0.2239
+Iter-2920; Was_D: 6.571; Euc_ls: 3.019; reg_ls: 0.9707; Wz_ls: 0.08011; G_loss: -0.4064; Correlation_loss : 14.12 ; D_loss_real: 6.129; D_loss_fake: -0.4417; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-2920; Correlation_loss : 7.259; fk: 100.0%
+KNN Acc : 34.91213030432919 , Discriminator Classifier Acc : 0.30004286326618085
+AUC Score is 0.2248
+KNN Acc : 35.13716245177883 , Discriminator Classifier Acc : 0.3107586798114016
+AUC Score is 0.2249
+Iter-2940; Was_D: 6.53; Euc_ls: 3.026; reg_ls: 0.9691; Wz_ls: 0.08011; G_loss: -0.4612; Correlation_loss : 13.71 ; D_loss_real: 6.03; D_loss_fake: -0.5002; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-2940; Correlation_loss : 7.333; fk: 100.0%
+KNN Acc : 35.61937419631376 , Discriminator Classifier Acc : 0.30004286326618085
+AUC Score is 0.227
+KNN Acc : 35.340762966138016 , Discriminator Classifier Acc : 0.32147449635662234
+AUC Score is 0.2204
+Iter-2960; Was_D: 6.645; Euc_ls: 3.121; reg_ls: 0.9686; Wz_ls: 0.0802; G_loss: -0.4891; Correlation_loss : 14.11 ; D_loss_real: 6.098; D_loss_fake: -0.5475; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-2960; Correlation_loss : 7.403; fk: 100.0%
+KNN Acc : 35.10501500214316 , Discriminator Classifier Acc : 0.3643377625375054
+AUC Score is 0.2224
+KNN Acc : 35.14787826832404 , Discriminator Classifier Acc : 0.32147449635662234
+AUC Score is 0.2232
+Iter-2980; Was_D: 6.548; Euc_ls: 2.995; reg_ls: 0.9671; Wz_ls: 0.08004; G_loss: -0.4838; Correlation_loss : 14.01 ; D_loss_real: 5.99; D_loss_fake: -0.5583; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-2980; Correlation_loss : 7.305; fk: 100.0%
+KNN Acc : 34.858551221603086 , Discriminator Classifier Acc : 0.30004286326618085
+AUC Score is 0.2218
+KNN Acc : 35.51221603086155 , Discriminator Classifier Acc : 0.32147449635662234
+AUC Score is 0.2264
+Iter-3000; Was_D: 6.6; Euc_ls: 3.029; reg_ls: 0.9662; Wz_ls: 0.08014; G_loss: -0.5115; Correlation_loss : 13.91 ; D_loss_real: 6.045; D_loss_fake: -0.5544; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-3000; Correlation_loss : 7.378; fk: 100.0%
+KNN Acc : 35.480068581225886 , Discriminator Classifier Acc : 0.2893270467209601
+AUC Score is 0.2221
+KNN Acc : 35.04072010287184 , Discriminator Classifier Acc : 0.30004286326618085
+AUC Score is 0.2179
+Iter-3020; Was_D: 6.529; Euc_ls: 3.016; reg_ls: 0.9647; Wz_ls: 0.08006; G_loss: -0.5386; Correlation_loss : 14.15 ; D_loss_real: 5.931; D_loss_fake: -0.5981; rl: 100.0%; fk: 99.9%
+Zero_Shot_Iter-3020; Correlation_loss : 7.299; fk: 100.0%
+KNN Acc : 34.92284612087441 , Discriminator Classifier Acc : 0.24646378054007717
+AUC Score is 0.2215
+KNN Acc : 35.35147878268324 , Discriminator Classifier Acc : 0.2571795970852979
+AUC Score is 0.222
+Iter-3040; Was_D: 6.544; Euc_ls: 2.896; reg_ls: 0.964; Wz_ls: 0.08007; G_loss: -0.5473; Correlation_loss : 13.75 ; D_loss_real: 5.966; D_loss_fake: -0.5772; rl: 99.9%; fk: 100.0%
+Zero_Shot_Iter-3040; Correlation_loss : 7.38; fk: 100.0%
+KNN Acc : 35.13716245177883 , Discriminator Classifier Acc : 0.2786112301757394
+AUC Score is 0.2249
+KNN Acc : 35.40505786540935 , Discriminator Classifier Acc : 0.2893270467209601
+AUC Score is 0.226
+Iter-3060; Was_D: 6.429; Euc_ls: 3.021; reg_ls: 0.9632; Wz_ls: 0.08011; G_loss: -0.5538; Correlation_loss : 13.68 ; D_loss_real: 5.849; D_loss_fake: -0.58; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-3060; Correlation_loss : 7.416; fk: 100.0%
+KNN Acc : 35.522931847406774 , Discriminator Classifier Acc : 0.2786112301757394
+AUC Score is 0.229
+KNN Acc : 35.50150021431633 , Discriminator Classifier Acc : 0.32147449635662234
+AUC Score is 0.2244
+Iter-3080; Was_D: 6.503; Euc_ls: 3.033; reg_ls: 0.962; Wz_ls: 0.08002; G_loss: -0.6147; Correlation_loss : 14.01 ; D_loss_real: 5.872; D_loss_fake: -0.6317; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-3080; Correlation_loss : 7.368; fk: 100.0%
+KNN Acc : 35.437205315045006 , Discriminator Classifier Acc : 0.32147449635662234
+AUC Score is 0.2287
+KNN Acc : 35.23360480068581 , Discriminator Classifier Acc : 0.32147449635662234
+AUC Score is 0.2262
+Iter-3100; Was_D: 6.471; Euc_ls: 2.879; reg_ls: 0.9619; Wz_ls: 0.08011; G_loss: -0.6529; Correlation_loss : 12.94 ; D_loss_real: 5.77; D_loss_fake: -0.7012; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-3100; Correlation_loss : 7.354; fk: 100.0%
+KNN Acc : 35.81225889412773 , Discriminator Classifier Acc : 0.2786112301757394
+AUC Score is 0.2264
+KNN Acc : 35.54436348049722 , Discriminator Classifier Acc : 0.2786112301757394
+AUC Score is 0.2265
+Iter-3120; Was_D: 6.556; Euc_ls: 3.074; reg_ls: 0.96; Wz_ls: 0.08001; G_loss: -0.6754; Correlation_loss : 14.05 ; D_loss_real: 5.848; D_loss_fake: -0.7078; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-3120; Correlation_loss : 7.38; fk: 100.0%
+KNN Acc : 35.533647663951996 , Discriminator Classifier Acc : 0.3321903129018431
+AUC Score is 0.2228
+KNN Acc : 35.790827261037286 , Discriminator Classifier Acc : 0.3107586798114016
+AUC Score is 0.2309
+Iter-3140; Was_D: 6.542; Euc_ls: 2.982; reg_ls: 0.9596; Wz_ls: 0.07993; G_loss: -0.6958; Correlation_loss : 13.83 ; D_loss_real: 5.833; D_loss_fake: -0.7091; rl: 100.0%; fk: 99.9%
+Zero_Shot_Iter-3140; Correlation_loss : 7.305; fk: 100.0%
+KNN Acc : 35.169309901414486 , Discriminator Classifier Acc : 0.32147449635662234
+AUC Score is 0.2225
+KNN Acc : 35.330047149592794 , Discriminator Classifier Acc : 0.32147449635662234
+AUC Score is 0.2227
+Iter-3160; Was_D: 6.542; Euc_ls: 3.056; reg_ls: 0.959; Wz_ls: 0.07992; G_loss: -0.7144; Correlation_loss : 14.64 ; D_loss_real: 5.81; D_loss_fake: -0.7322; rl: 100.0%; fk: 99.9%
+Zero_Shot_Iter-3160; Correlation_loss : 7.344; fk: 100.0%
+KNN Acc : 35.31933133304758 , Discriminator Classifier Acc : 0.32147449635662234
+AUC Score is 0.2262
+KNN Acc : 35.480068581225886 , Discriminator Classifier Acc : 0.3321903129018431
+AUC Score is 0.2224
+Iter-3180; Was_D: 6.593; Euc_ls: 2.923; reg_ls: 0.9585; Wz_ls: 0.08017; G_loss: -0.7304; Correlation_loss : 13.8 ; D_loss_real: 5.838; D_loss_fake: -0.755; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-3180; Correlation_loss : 7.438; fk: 100.0%
+KNN Acc : 35.37291041577368 , Discriminator Classifier Acc : 0.32147449635662234
+AUC Score is 0.2289
+KNN Acc : 35.67295327903987 , Discriminator Classifier Acc : 0.32147449635662234
+AUC Score is 0.228
+Iter-3200; Was_D: 6.486; Euc_ls: 2.972; reg_ls: 0.9577; Wz_ls: 0.08013; G_loss: -0.7503; Correlation_loss : 13.81 ; D_loss_real: 5.758; D_loss_fake: -0.7286; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-3200; Correlation_loss : 7.461; fk: 100.0%
+KNN Acc : 35.37291041577368 , Discriminator Classifier Acc : 0.34290612944706383
+AUC Score is 0.2249
+KNN Acc : 34.901414487783974 , Discriminator Classifier Acc : 0.3321903129018431
+AUC Score is 0.22
+Iter-3220; Was_D: 6.597; Euc_ls: 2.945; reg_ls: 0.9562; Wz_ls: 0.08004; G_loss: -0.8249; Correlation_loss : 14.15 ; D_loss_real: 5.728; D_loss_fake: -0.869; rl: 100.0%; fk: 99.9%
+Zero_Shot_Iter-3220; Correlation_loss : 7.36; fk: 100.0%
+KNN Acc : 34.944277753964855 , Discriminator Classifier Acc : 0.32147449635662234
+AUC Score is 0.2223
+KNN Acc : 35.50150021431633 , Discriminator Classifier Acc : 0.3107586798114016
+AUC Score is 0.2279
+Iter-3240; Was_D: 6.678; Euc_ls: 2.95; reg_ls: 0.9563; Wz_ls: 0.0801; G_loss: -0.7956; Correlation_loss : 13.94 ; D_loss_real: 5.804; D_loss_fake: -0.8741; rl: 99.9%; fk: 100.0%
+Zero_Shot_Iter-3240; Correlation_loss : 7.413; fk: 100.0%
+KNN Acc : 36.10158594084869 , Discriminator Classifier Acc : 0.3107586798114016
+AUC Score is 0.2273
+KNN Acc : 35.18002571795971 , Discriminator Classifier Acc : 0.3321903129018431
+AUC Score is 0.2276
+Iter-3260; Was_D: 6.705; Euc_ls: 2.983; reg_ls: 0.9552; Wz_ls: 0.07999; G_loss: -0.8109; Correlation_loss : 14.02 ; D_loss_real: 5.851; D_loss_fake: -0.8538; rl: 100.0%; fk: 99.9%
+Zero_Shot_Iter-3260; Correlation_loss : 7.398; fk: 100.0%
+KNN Acc : 35.662237462494645 , Discriminator Classifier Acc : 0.32147449635662234
+AUC Score is 0.2297
+KNN Acc : 36.03729104157737 , Discriminator Classifier Acc : 0.32147449635662234
+AUC Score is 0.2299
+Iter-3280; Was_D: 6.625; Euc_ls: 3.01; reg_ls: 0.9553; Wz_ls: 0.08013; G_loss: -0.8253; Correlation_loss : 13.89 ; D_loss_real: 5.773; D_loss_fake: -0.8518; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-3280; Correlation_loss : 7.387; fk: 100.0%
+KNN Acc : 35.63009001285898 , Discriminator Classifier Acc : 0.3536219459922846
+AUC Score is 0.2314
+KNN Acc : 35.76939562794685 , Discriminator Classifier Acc : 0.3107586798114016
+AUC Score is 0.223
+Iter-3300; Was_D: 6.664; Euc_ls: 2.976; reg_ls: 0.9537; Wz_ls: 0.07997; G_loss: -0.8407; Correlation_loss : 13.95 ; D_loss_real: 5.797; D_loss_fake: -0.8669; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-3300; Correlation_loss : 7.369; fk: 100.0%
+KNN Acc : 35.565795113587654 , Discriminator Classifier Acc : 0.34290612944706383
+AUC Score is 0.2291
+KNN Acc : 35.844406343763396 , Discriminator Classifier Acc : 0.30004286326618085
+AUC Score is 0.2287
+Iter-3320; Was_D: 6.667; Euc_ls: 3.019; reg_ls: 0.9528; Wz_ls: 0.07995; G_loss: -0.8773; Correlation_loss : 14.2 ; D_loss_real: 5.729; D_loss_fake: -0.9374; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-3320; Correlation_loss : 7.378; fk: 100.0%
+KNN Acc : 34.987141020145735 , Discriminator Classifier Acc : 0.3107586798114016
+AUC Score is 0.2236
+KNN Acc : 35.18002571795971 , Discriminator Classifier Acc : 0.3321903129018431
+AUC Score is 0.2257
+Iter-3340; Was_D: 6.626; Euc_ls: 3.096; reg_ls: 0.9522; Wz_ls: 0.07985; G_loss: -0.8896; Correlation_loss : 14.09 ; D_loss_real: 5.71; D_loss_fake: -0.916; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-3340; Correlation_loss : 7.342; fk: 100.0%
+KNN Acc : 34.708529789969994 , Discriminator Classifier Acc : 0.3321903129018431
+AUC Score is 0.2231
+KNN Acc : 35.651521645949416 , Discriminator Classifier Acc : 0.3321903129018431
+AUC Score is 0.2261
+Iter-3360; Was_D: 6.686; Euc_ls: 2.837; reg_ls: 0.9513; Wz_ls: 0.07983; G_loss: -0.9083; Correlation_loss : 13.52 ; D_loss_real: 5.724; D_loss_fake: -0.9626; rl: 99.9%; fk: 100.0%
+Zero_Shot_Iter-3360; Correlation_loss : 7.468; fk: 100.0%
+KNN Acc : 35.437205315045006 , Discriminator Classifier Acc : 0.30004286326618085
+AUC Score is 0.2278
+KNN Acc : 35.86583797685384 , Discriminator Classifier Acc : 0.30004286326618085
+AUC Score is 0.2254
+Iter-3380; Was_D: 6.527; Euc_ls: 3.005; reg_ls: 0.951; Wz_ls: 0.07991; G_loss: -0.9462; Correlation_loss : 13.9 ; D_loss_real: 5.545; D_loss_fake: -0.9818; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-3380; Correlation_loss : 7.451; fk: 100.0%
+KNN Acc : 35.96228032576082 , Discriminator Classifier Acc : 0.30004286326618085
+AUC Score is 0.2313
+KNN Acc : 35.6408058294042 , Discriminator Classifier Acc : 0.32147449635662234
+AUC Score is 0.2268
+Iter-3400; Was_D: 6.597; Euc_ls: 2.937; reg_ls: 0.9504; Wz_ls: 0.07995; G_loss: -0.9671; Correlation_loss : 13.92 ; D_loss_real: 5.636; D_loss_fake: -0.9613; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-3400; Correlation_loss : 7.416; fk: 100.0%
+KNN Acc : 35.37291041577368 , Discriminator Classifier Acc : 0.30004286326618085
+AUC Score is 0.2259
+KNN Acc : 35.158594084869264 , Discriminator Classifier Acc : 0.3107586798114016
+AUC Score is 0.2276
+Iter-3420; Was_D: 6.575; Euc_ls: 3.015; reg_ls: 0.949; Wz_ls: 0.07979; G_loss: -1.031; Correlation_loss : 14.54 ; D_loss_real: 5.51; D_loss_fake: -1.065; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-3420; Correlation_loss : 7.41; fk: 100.0%
+KNN Acc : 35.55507929704243 , Discriminator Classifier Acc : 0.3107586798114016
+AUC Score is 0.2292
+KNN Acc : 35.844406343763396 , Discriminator Classifier Acc : 0.30004286326618085
+AUC Score is 0.2283
+Iter-3440; Was_D: 6.525; Euc_ls: 2.976; reg_ls: 0.9487; Wz_ls: 0.07975; G_loss: -1.064; Correlation_loss : 13.76 ; D_loss_real: 5.464; D_loss_fake: -1.061; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-3440; Correlation_loss : 7.469; fk: 100.0%
+KNN Acc : 35.169309901414486 , Discriminator Classifier Acc : 0.3107586798114016
+AUC Score is 0.2274
+KNN Acc : 35.0728675525075 , Discriminator Classifier Acc : 0.30004286326618085
+AUC Score is 0.2239
+Iter-3460; Was_D: 6.733; Euc_ls: 2.903; reg_ls: 0.9485; Wz_ls: 0.07974; G_loss: -1.056; Correlation_loss : 13.79 ; D_loss_real: 5.657; D_loss_fake: -1.076; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-3460; Correlation_loss : 7.418; fk: 100.0%
+KNN Acc : 35.565795113587654 , Discriminator Classifier Acc : 0.3321903129018431
+AUC Score is 0.226
+KNN Acc : 35.222888984140596 , Discriminator Classifier Acc : 0.3321903129018431
+AUC Score is 0.2248
+Iter-3480; Was_D: 6.576; Euc_ls: 2.953; reg_ls: 0.9484; Wz_ls: 0.07988; G_loss: -1.055; Correlation_loss : 13.87 ; D_loss_real: 5.483; D_loss_fake: -1.093; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-3480; Correlation_loss : 7.425; fk: 100.0%
+KNN Acc : 35.80154307758251 , Discriminator Classifier Acc : 0.3107586798114016
+AUC Score is 0.2276
+KNN Acc : 35.14787826832404 , Discriminator Classifier Acc : 0.30004286326618085
+AUC Score is 0.2257
+Iter-3500; Was_D: 6.674; Euc_ls: 2.974; reg_ls: 0.9479; Wz_ls: 0.07988; G_loss: -1.078; Correlation_loss : 13.98 ; D_loss_real: 5.541; D_loss_fake: -1.133; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-3500; Correlation_loss : 7.384; fk: 100.0%
+KNN Acc : 34.944277753964855 , Discriminator Classifier Acc : 0.3321903129018431
+AUC Score is 0.2245
+KNN Acc : 35.36219459922847 , Discriminator Classifier Acc : 0.2893270467209601
+AUC Score is 0.2289
+Iter-3520; Was_D: 6.587; Euc_ls: 3.011; reg_ls: 0.9476; Wz_ls: 0.07993; G_loss: -1.137; Correlation_loss : 14.18 ; D_loss_real: 5.41; D_loss_fake: -1.177; rl: 99.9%; fk: 100.0%
+Zero_Shot_Iter-3520; Correlation_loss : 7.398; fk: 100.0%
+KNN Acc : 34.91213030432919 , Discriminator Classifier Acc : 0.34290612944706383
+AUC Score is 0.2224
+KNN Acc : 36.058722674667806 , Discriminator Classifier Acc : 0.3321903129018431
+AUC Score is 0.2254
+Iter-3540; Was_D: 6.566; Euc_ls: 3.033; reg_ls: 0.9473; Wz_ls: 0.07993; G_loss: -1.137; Correlation_loss : 13.95 ; D_loss_real: 5.422; D_loss_fake: -1.144; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-3540; Correlation_loss : 7.438; fk: 100.0%
+KNN Acc : 35.651521645949416 , Discriminator Classifier Acc : 0.3107586798114016
+AUC Score is 0.2286
+KNN Acc : 35.50150021431633 , Discriminator Classifier Acc : 0.3107586798114016
+AUC Score is 0.2233
+Iter-3560; Was_D: 6.663; Euc_ls: 2.86; reg_ls: 0.9462; Wz_ls: 0.07989; G_loss: -1.156; Correlation_loss : 13.72 ; D_loss_real: 5.451; D_loss_fake: -1.212; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-3560; Correlation_loss : 7.428; fk: 100.0%
+KNN Acc : 35.255036433776255 , Discriminator Classifier Acc : 0.3321903129018431
+AUC Score is 0.2244
+KNN Acc : 34.858551221603086 , Discriminator Classifier Acc : 0.30004286326618085
+AUC Score is 0.2269
+Iter-3580; Was_D: 6.596; Euc_ls: 3.017; reg_ls: 0.9455; Wz_ls: 0.07976; G_loss: -1.243; Correlation_loss : 14.13 ; D_loss_real: 5.321; D_loss_fake: -1.274; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-3580; Correlation_loss : 7.425; fk: 100.0%
+KNN Acc : 35.212173167595374 , Discriminator Classifier Acc : 0.3107586798114016
+AUC Score is 0.226
+KNN Acc : 35.72653236176597 , Discriminator Classifier Acc : 0.2786112301757394
+AUC Score is 0.2309
+Iter-3600; Was_D: 6.61; Euc_ls: 2.919; reg_ls: 0.9447; Wz_ls: 0.07961; G_loss: -1.213; Correlation_loss : 13.9 ; D_loss_real: 5.38; D_loss_fake: -1.23; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-3600; Correlation_loss : 7.45; fk: 100.0%
+KNN Acc : 35.45863694813545 , Discriminator Classifier Acc : 0.3107586798114016
+AUC Score is 0.2312
+KNN Acc : 35.833690527218174 , Discriminator Classifier Acc : 0.32147449635662234
+AUC Score is 0.2276
+Iter-3620; Was_D: 6.662; Euc_ls: 3.017; reg_ls: 0.9441; Wz_ls: 0.07965; G_loss: -1.173; Correlation_loss : 13.78 ; D_loss_real: 5.462; D_loss_fake: -1.2; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-3620; Correlation_loss : 7.471; fk: 100.0%
+KNN Acc : 35.876553793399054 , Discriminator Classifier Acc : 0.30004286326618085
+AUC Score is 0.2246
+KNN Acc : 35.019288469781394 , Discriminator Classifier Acc : 0.3536219459922846
+AUC Score is 0.2243
+Iter-3640; Was_D: 6.614; Euc_ls: 3.054; reg_ls: 0.9431; Wz_ls: 0.07963; G_loss: -1.24; Correlation_loss : 14.16 ; D_loss_real: 5.32; D_loss_fake: -1.294; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-3640; Correlation_loss : 7.42; fk: 100.0%
+KNN Acc : 34.99785683669096 , Discriminator Classifier Acc : 0.3107586798114016
+AUC Score is 0.2278
+KNN Acc : 36.34804972138877 , Discriminator Classifier Acc : 0.3321903129018431
+AUC Score is 0.2274
+Iter-3660; Was_D: 6.676; Euc_ls: 2.956; reg_ls: 0.943; Wz_ls: 0.07973; G_loss: -1.292; Correlation_loss : 13.68 ; D_loss_real: 5.357; D_loss_fake: -1.319; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-3660; Correlation_loss : 7.502; fk: 100.0%
+KNN Acc : 35.99442777539649 , Discriminator Classifier Acc : 0.3107586798114016
+AUC Score is 0.2245
+KNN Acc : 35.75867981140163 , Discriminator Classifier Acc : 0.3321903129018431
+AUC Score is 0.2281
+Iter-3680; Was_D: 6.687; Euc_ls: 3.037; reg_ls: 0.9425; Wz_ls: 0.0797; G_loss: -1.313; Correlation_loss : 14.09 ; D_loss_real: 5.355; D_loss_fake: -1.332; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-3680; Correlation_loss : 7.448; fk: 100.0%
+KNN Acc : 35.59794256322332 , Discriminator Classifier Acc : 0.34290612944706383
+AUC Score is 0.2238
+KNN Acc : 35.96228032576082 , Discriminator Classifier Acc : 0.34290612944706383
+AUC Score is 0.2247
+Iter-3700; Was_D: 6.732; Euc_ls: 2.927; reg_ls: 0.9425; Wz_ls: 0.07972; G_loss: -1.317; Correlation_loss : 13.97 ; D_loss_real: 5.385; D_loss_fake: -1.347; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-3700; Correlation_loss : 7.484; fk: 100.0%
+KNN Acc : 35.394342048864125 , Discriminator Classifier Acc : 0.34290612944706383
+AUC Score is 0.2237
+KNN Acc : 35.76939562794685 , Discriminator Classifier Acc : 0.3107586798114016
+AUC Score is 0.226
+Iter-3720; Was_D: 6.668; Euc_ls: 2.883; reg_ls: 0.941; Wz_ls: 0.0795; G_loss: -1.361; Correlation_loss : 13.65 ; D_loss_real: 5.264; D_loss_fake: -1.404; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-3720; Correlation_loss : 7.485; fk: 100.0%
+KNN Acc : 35.80154307758251 , Discriminator Classifier Acc : 0.32147449635662234
+AUC Score is 0.2283
+KNN Acc : 35.54436348049722 , Discriminator Classifier Acc : 0.34290612944706383
+AUC Score is 0.2271
+Iter-3740; Was_D: 6.677; Euc_ls: 2.841; reg_ls: 0.9416; Wz_ls: 0.07971; G_loss: -1.422; Correlation_loss : 13.67 ; D_loss_real: 5.235; D_loss_fake: -1.442; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-3740; Correlation_loss : 7.435; fk: 100.0%
+KNN Acc : 35.73724817831119 , Discriminator Classifier Acc : 0.32147449635662234
+AUC Score is 0.2253
+KNN Acc : 35.426489498499784 , Discriminator Classifier Acc : 0.3107586798114016
+AUC Score is 0.2254
+Iter-3760; Was_D: 6.621; Euc_ls: 3.048; reg_ls: 0.9414; Wz_ls: 0.07955; G_loss: -1.455; Correlation_loss : 14.04 ; D_loss_real: 5.145; D_loss_fake: -1.476; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-3760; Correlation_loss : 7.394; fk: 100.0%
+KNN Acc : 35.480068581225886 , Discriminator Classifier Acc : 0.34290612944706383
+AUC Score is 0.224
+KNN Acc : 35.340762966138016 , Discriminator Classifier Acc : 0.32147449635662234
+AUC Score is 0.2278
+Iter-3780; Was_D: 6.678; Euc_ls: 2.987; reg_ls: 0.9402; Wz_ls: 0.07953; G_loss: -1.407; Correlation_loss : 14.05 ; D_loss_real: 5.255; D_loss_fake: -1.423; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-3780; Correlation_loss : 7.447; fk: 100.0%
+KNN Acc : 35.330047149592794 , Discriminator Classifier Acc : 0.30004286326618085
+AUC Score is 0.2284
+KNN Acc : 35.49078439777111 , Discriminator Classifier Acc : 0.3107586798114016
+AUC Score is 0.2229
+Iter-3800; Was_D: 6.58; Euc_ls: 2.99; reg_ls: 0.94; Wz_ls: 0.07963; G_loss: -1.477; Correlation_loss : 14.07 ; D_loss_real: 5.087; D_loss_fake: -1.493; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-3800; Correlation_loss : 7.425; fk: 100.0%
+KNN Acc : 35.608658379768535 , Discriminator Classifier Acc : 0.2893270467209601
+AUC Score is 0.2262
+KNN Acc : 35.81225889412773 , Discriminator Classifier Acc : 0.30004286326618085
+AUC Score is 0.2297
+Iter-3820; Was_D: 6.687; Euc_ls: 3.005; reg_ls: 0.9404; Wz_ls: 0.07962; G_loss: -1.44; Correlation_loss : 14.18 ; D_loss_real: 5.183; D_loss_fake: -1.504; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-3820; Correlation_loss : 7.488; fk: 100.0%
+KNN Acc : 36.17659665666524 , Discriminator Classifier Acc : 0.30004286326618085
+AUC Score is 0.2273
+KNN Acc : 35.94084869267038 , Discriminator Classifier Acc : 0.34290612944706383
+AUC Score is 0.2256
+Iter-3840; Was_D: 6.662; Euc_ls: 2.991; reg_ls: 0.9401; Wz_ls: 0.07963; G_loss: -1.483; Correlation_loss : 13.81 ; D_loss_real: 5.138; D_loss_fake: -1.524; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-3840; Correlation_loss : 7.558; fk: 100.0%
+KNN Acc : 35.972996142306044 , Discriminator Classifier Acc : 0.30004286326618085
+AUC Score is 0.2279
+KNN Acc : 35.9515645092156 , Discriminator Classifier Acc : 0.3107586798114016
+AUC Score is 0.2285
+Iter-3860; Was_D: 6.628; Euc_ls: 2.98; reg_ls: 0.9393; Wz_ls: 0.07948; G_loss: -1.51; Correlation_loss : 13.53 ; D_loss_real: 5.077; D_loss_fake: -1.552; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-3860; Correlation_loss : 7.534; fk: 100.0%
+KNN Acc : 36.058722674667806 , Discriminator Classifier Acc : 0.32147449635662234
+AUC Score is 0.2261
+KNN Acc : 35.330047149592794 , Discriminator Classifier Acc : 0.3321903129018431
+AUC Score is 0.2251
+Iter-3880; Was_D: 6.611; Euc_ls: 3.043; reg_ls: 0.9384; Wz_ls: 0.07947; G_loss: -1.604; Correlation_loss : 13.93 ; D_loss_real: 4.972; D_loss_fake: -1.639; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-3880; Correlation_loss : 7.452; fk: 100.0%
+KNN Acc : 35.72653236176597 , Discriminator Classifier Acc : 0.32147449635662234
+AUC Score is 0.2289
+KNN Acc : 36.45520788684098 , Discriminator Classifier Acc : 0.32147449635662234
+AUC Score is 0.2306
+Iter-3900; Was_D: 6.736; Euc_ls: 2.922; reg_ls: 0.9383; Wz_ls: 0.07938; G_loss: -1.529; Correlation_loss : 13.87 ; D_loss_real: 5.172; D_loss_fake: -1.564; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-3900; Correlation_loss : 7.439; fk: 100.0%
+KNN Acc : 35.75867981140163 , Discriminator Classifier Acc : 0.32147449635662234
+AUC Score is 0.2283
+KNN Acc : 35.94084869267038 , Discriminator Classifier Acc : 0.34290612944706383
+AUC Score is 0.2248
+Iter-3920; Was_D: 6.65; Euc_ls: 2.951; reg_ls: 0.9378; Wz_ls: 0.07946; G_loss: -1.612; Correlation_loss : 13.65 ; D_loss_real: 5.011; D_loss_fake: -1.639; rl: 99.9%; fk: 100.0%
+Zero_Shot_Iter-3920; Correlation_loss : 7.508; fk: 100.0%
+KNN Acc : 36.10158594084869 , Discriminator Classifier Acc : 0.32147449635662234
+AUC Score is 0.2294
+KNN Acc : 35.44792113159023 , Discriminator Classifier Acc : 0.3321903129018431
+AUC Score is 0.2296
+Iter-3940; Was_D: 6.529; Euc_ls: 2.884; reg_ls: 0.938; Wz_ls: 0.07951; G_loss: -1.648; Correlation_loss : 13.7 ; D_loss_real: 4.838; D_loss_fake: -1.691; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-3940; Correlation_loss : 7.4; fk: 100.0%
+KNN Acc : 36.06943849121303 , Discriminator Classifier Acc : 0.32147449635662234
+AUC Score is 0.2284
+KNN Acc : 36.03729104157737 , Discriminator Classifier Acc : 0.3321903129018431
+AUC Score is 0.2293
+Iter-3960; Was_D: 6.635; Euc_ls: 3.007; reg_ls: 0.9377; Wz_ls: 0.07953; G_loss: -1.643; Correlation_loss : 14.08 ; D_loss_real: 4.957; D_loss_fake: -1.678; rl: 100.0%; fk: 99.9%
+Zero_Shot_Iter-3960; Correlation_loss : 7.498; fk: 100.0%
+KNN Acc : 35.35147878268324 , Discriminator Classifier Acc : 0.3321903129018431
+AUC Score is 0.2277
+KNN Acc : 35.222888984140596 , Discriminator Classifier Acc : 0.3321903129018431
+AUC Score is 0.2237
+Iter-3980; Was_D: 6.673; Euc_ls: 3.008; reg_ls: 0.9378; Wz_ls: 0.07947; G_loss: -1.696; Correlation_loss : 14.09 ; D_loss_real: 4.946; D_loss_fake: -1.727; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-3980; Correlation_loss : 7.428; fk: 100.0%
+KNN Acc : 35.887269609944276 , Discriminator Classifier Acc : 0.32147449635662234
+AUC Score is 0.2295
+KNN Acc : 35.887269609944276 , Discriminator Classifier Acc : 0.3321903129018431
+AUC Score is 0.2292
+Iter-4000; Was_D: 6.658; Euc_ls: 3.047; reg_ls: 0.9373; Wz_ls: 0.07948; G_loss: -1.721; Correlation_loss : 13.9 ; D_loss_real: 4.909; D_loss_fake: -1.749; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-4000; Correlation_loss : 7.489; fk: 100.0%
+KNN Acc : 35.45863694813545 , Discriminator Classifier Acc : 0.3536219459922846
+AUC Score is 0.2273
+KNN Acc : 35.533647663951996 , Discriminator Classifier Acc : 0.37505357908272613
+AUC Score is 0.2283
+Iter-4020; Was_D: 6.65; Euc_ls: 3.013; reg_ls: 0.9367; Wz_ls: 0.07942; G_loss: -1.74; Correlation_loss : 13.93 ; D_loss_real: 4.909; D_loss_fake: -1.74; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-4020; Correlation_loss : 7.451; fk: 100.0%
+KNN Acc : 35.6408058294042 , Discriminator Classifier Acc : 0.3107586798114016
+AUC Score is 0.228
+KNN Acc : 35.790827261037286 , Discriminator Classifier Acc : 0.32147449635662234
+AUC Score is 0.2269
+Iter-4040; Was_D: 6.687; Euc_ls: 3.015; reg_ls: 0.9364; Wz_ls: 0.07937; G_loss: -1.795; Correlation_loss : 14.63 ; D_loss_real: 4.844; D_loss_fake: -1.843; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-4040; Correlation_loss : 7.487; fk: 100.0%
+KNN Acc : 36.13373339048436 , Discriminator Classifier Acc : 0.3321903129018431
+AUC Score is 0.2285
+KNN Acc : 35.41577368195456 , Discriminator Classifier Acc : 0.3643377625375054
+AUC Score is 0.2266
+Iter-4060; Was_D: 6.775; Euc_ls: 2.958; reg_ls: 0.9363; Wz_ls: 0.07944; G_loss: -1.805; Correlation_loss : 14.06 ; D_loss_real: 4.945; D_loss_fake: -1.829; rl: 100.0%; fk: 99.9%
+Zero_Shot_Iter-4060; Correlation_loss : 7.528; fk: 100.0%
+KNN Acc : 35.41577368195456 , Discriminator Classifier Acc : 0.32147449635662234
+AUC Score is 0.2261
+KNN Acc : 36.2087441063009 , Discriminator Classifier Acc : 0.3643377625375054
+AUC Score is 0.2311
+Iter-4080; Was_D: 6.66; Euc_ls: 2.941; reg_ls: 0.9362; Wz_ls: 0.07953; G_loss: -1.775; Correlation_loss : 13.93 ; D_loss_real: 4.812; D_loss_fake: -1.848; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-4080; Correlation_loss : 7.45; fk: 100.0%
+KNN Acc : 35.82297471067296 , Discriminator Classifier Acc : 0.34290612944706383
+AUC Score is 0.2273
+KNN Acc : 35.876553793399054 , Discriminator Classifier Acc : 0.34290612944706383
+AUC Score is 0.2287
+Iter-4100; Was_D: 6.553; Euc_ls: 3.015; reg_ls: 0.9356; Wz_ls: 0.07939; G_loss: -1.873; Correlation_loss : 13.91 ; D_loss_real: 4.635; D_loss_fake: -1.918; rl: 99.9%; fk: 100.0%
+Zero_Shot_Iter-4100; Correlation_loss : 7.462; fk: 100.0%
+KNN Acc : 35.576510930132876 , Discriminator Classifier Acc : 0.3536219459922846
+AUC Score is 0.2292
+KNN Acc : 35.651521645949416 , Discriminator Classifier Acc : 0.3107586798114016
+AUC Score is 0.2268
+Iter-4120; Was_D: 6.663; Euc_ls: 2.924; reg_ls: 0.9348; Wz_ls: 0.07926; G_loss: -1.858; Correlation_loss : 13.9 ; D_loss_real: 4.735; D_loss_fake: -1.928; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-4120; Correlation_loss : 7.499; fk: 100.0%
+KNN Acc : 35.86583797685384 , Discriminator Classifier Acc : 0.34290612944706383
+AUC Score is 0.2269
+KNN Acc : 35.82297471067296 , Discriminator Classifier Acc : 0.3321903129018431
+AUC Score is 0.2284
+Iter-4140; Was_D: 6.598; Euc_ls: 2.93; reg_ls: 0.9351; Wz_ls: 0.07941; G_loss: -1.87; Correlation_loss : 13.41 ; D_loss_real: 4.714; D_loss_fake: -1.884; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-4140; Correlation_loss : 7.505; fk: 100.0%
+KNN Acc : 35.41577368195456 , Discriminator Classifier Acc : 0.3107586798114016
+AUC Score is 0.2263
+KNN Acc : 35.747963994856406 , Discriminator Classifier Acc : 0.32147449635662234
+AUC Score is 0.2268
+Iter-4160; Was_D: 6.62; Euc_ls: 3.024; reg_ls: 0.9351; Wz_ls: 0.07934; G_loss: -1.874; Correlation_loss : 13.88 ; D_loss_real: 4.723; D_loss_fake: -1.897; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-4160; Correlation_loss : 7.517; fk: 100.0%
+KNN Acc : 35.426489498499784 , Discriminator Classifier Acc : 0.3321903129018431
+AUC Score is 0.2298
+KNN Acc : 35.576510930132876 , Discriminator Classifier Acc : 0.3321903129018431
+AUC Score is 0.2249
+Iter-4180; Was_D: 6.658; Euc_ls: 2.965; reg_ls: 0.935; Wz_ls: 0.0794; G_loss: -1.939; Correlation_loss : 14.03 ; D_loss_real: 4.7; D_loss_fake: -1.957; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-4180; Correlation_loss : 7.477; fk: 100.0%
+KNN Acc : 35.40505786540935 , Discriminator Classifier Acc : 0.32147449635662234
+AUC Score is 0.2252
+KNN Acc : 35.212173167595374 , Discriminator Classifier Acc : 0.32147449635662234
+AUC Score is 0.2263
+Iter-4200; Was_D: 6.624; Euc_ls: 2.972; reg_ls: 0.9347; Wz_ls: 0.07945; G_loss: -1.955; Correlation_loss : 14.16 ; D_loss_real: 4.64; D_loss_fake: -1.984; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-4200; Correlation_loss : 7.463; fk: 100.0%
+KNN Acc : 35.608658379768535 , Discriminator Classifier Acc : 0.32147449635662234
+AUC Score is 0.2251
+KNN Acc : 35.651521645949416 , Discriminator Classifier Acc : 0.32147449635662234
+AUC Score is 0.2265
+Iter-4220; Was_D: 6.746; Euc_ls: 2.937; reg_ls: 0.9346; Wz_ls: 0.07946; G_loss: -1.99; Correlation_loss : 13.67 ; D_loss_real: 4.748; D_loss_fake: -1.999; rl: 100.0%; fk: 99.9%
+Zero_Shot_Iter-4220; Correlation_loss : 7.465; fk: 100.0%
+KNN Acc : 35.19074153450493 , Discriminator Classifier Acc : 0.3321903129018431
+AUC Score is 0.2272
+KNN Acc : 36.058722674667806 , Discriminator Classifier Acc : 0.3321903129018431
+AUC Score is 0.2311
+Iter-4240; Was_D: 6.637; Euc_ls: 2.993; reg_ls: 0.9351; Wz_ls: 0.0795; G_loss: -2.002; Correlation_loss : 13.9 ; D_loss_real: 4.581; D_loss_fake: -2.056; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-4240; Correlation_loss : 7.557; fk: 100.0%
+KNN Acc : 35.3836262323189 , Discriminator Classifier Acc : 0.3321903129018431
+AUC Score is 0.2273
+KNN Acc : 35.37291041577368 , Discriminator Classifier Acc : 0.34290612944706383
+AUC Score is 0.2259
+Iter-4260; Was_D: 6.642; Euc_ls: 2.998; reg_ls: 0.9351; Wz_ls: 0.07944; G_loss: -2.036; Correlation_loss : 13.98 ; D_loss_real: 4.571; D_loss_fake: -2.071; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-4260; Correlation_loss : 7.51; fk: 100.0%
+KNN Acc : 35.972996142306044 , Discriminator Classifier Acc : 0.34290612944706383
+AUC Score is 0.2302
+KNN Acc : 35.68366909558509 , Discriminator Classifier Acc : 0.3536219459922846
+AUC Score is 0.2255
+Iter-4280; Was_D: 6.679; Euc_ls: 2.98; reg_ls: 0.9354; Wz_ls: 0.07945; G_loss: -2.087; Correlation_loss : 14.09 ; D_loss_real: 4.557; D_loss_fake: -2.122; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-4280; Correlation_loss : 7.467; fk: 100.0%
+KNN Acc : 35.222888984140596 , Discriminator Classifier Acc : 0.34290612944706383
+AUC Score is 0.2281
+KNN Acc : 35.31933133304758 , Discriminator Classifier Acc : 0.3536219459922846
+AUC Score is 0.2248
+Iter-4300; Was_D: 6.612; Euc_ls: 3.0; reg_ls: 0.9352; Wz_ls: 0.07934; G_loss: -2.084; Correlation_loss : 13.9 ; D_loss_real: 4.513; D_loss_fake: -2.1; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-4300; Correlation_loss : 7.551; fk: 100.0%
+KNN Acc : 35.59794256322332 , Discriminator Classifier Acc : 0.3536219459922846
+AUC Score is 0.2279
+KNN Acc : 35.480068581225886 , Discriminator Classifier Acc : 0.34290612944706383
+AUC Score is 0.2279
+Iter-4320; Was_D: 6.743; Euc_ls: 3.045; reg_ls: 0.9353; Wz_ls: 0.07953; G_loss: -2.095; Correlation_loss : 13.86 ; D_loss_real: 4.6; D_loss_fake: -2.143; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-4320; Correlation_loss : 7.499; fk: 100.0%
+KNN Acc : 36.04800685812259 , Discriminator Classifier Acc : 0.34290612944706383
+AUC Score is 0.2273
+KNN Acc : 35.80154307758251 , Discriminator Classifier Acc : 0.3536219459922846
+AUC Score is 0.2278
+Iter-4340; Was_D: 6.734; Euc_ls: 2.988; reg_ls: 0.9354; Wz_ls: 0.07949; G_loss: -2.113; Correlation_loss : 13.78 ; D_loss_real: 4.609; D_loss_fake: -2.125; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-4340; Correlation_loss : 7.503; fk: 100.0%
+KNN Acc : 35.94084869267038 , Discriminator Classifier Acc : 0.3536219459922846
+AUC Score is 0.2277
+KNN Acc : 35.565795113587654 , Discriminator Classifier Acc : 0.3643377625375054
+AUC Score is 0.2263
+Iter-4360; Was_D: 6.729; Euc_ls: 2.861; reg_ls: 0.9352; Wz_ls: 0.07949; G_loss: -2.175; Correlation_loss : 13.43 ; D_loss_real: 4.528; D_loss_fake: -2.202; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-4360; Correlation_loss : 7.541; fk: 100.0%
+KNN Acc : 35.85512216030862 , Discriminator Classifier Acc : 0.37505357908272613
+AUC Score is 0.2297
+KNN Acc : 35.51221603086155 , Discriminator Classifier Acc : 0.39648521217316757
+AUC Score is 0.2261
+Iter-4380; Was_D: 6.726; Euc_ls: 2.958; reg_ls: 0.9351; Wz_ls: 0.07952; G_loss: -2.171; Correlation_loss : 13.87 ; D_loss_real: 4.552; D_loss_fake: -2.174; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-4380; Correlation_loss : 7.504; fk: 100.0%
+KNN Acc : 35.54436348049722 , Discriminator Classifier Acc : 0.37505357908272613
+AUC Score is 0.2266
+KNN Acc : 35.6943849121303 , Discriminator Classifier Acc : 0.3857693956279469
+AUC Score is 0.2269
+Iter-4400; Was_D: 6.658; Euc_ls: 2.943; reg_ls: 0.9348; Wz_ls: 0.07937; G_loss: -2.214; Correlation_loss : 13.86 ; D_loss_real: 4.423; D_loss_fake: -2.234; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-4400; Correlation_loss : 7.526; fk: 100.0%
+KNN Acc : 35.330047149592794 , Discriminator Classifier Acc : 0.3643377625375054
+AUC Score is 0.2276
+KNN Acc : 35.565795113587654 , Discriminator Classifier Acc : 0.3107586798114016
+AUC Score is 0.2278
+Iter-4420; Was_D: 6.582; Euc_ls: 2.986; reg_ls: 0.9345; Wz_ls: 0.07933; G_loss: -2.223; Correlation_loss : 14.01 ; D_loss_real: 4.347; D_loss_fake: -2.235; rl: 99.9%; fk: 100.0%
+Zero_Shot_Iter-4420; Correlation_loss : 7.508; fk: 99.97%
+KNN Acc : 35.5872267466781 , Discriminator Classifier Acc : 0.3643377625375054
+AUC Score is 0.2237
+KNN Acc : 35.437205315045006 , Discriminator Classifier Acc : 0.3536219459922846
+AUC Score is 0.2284
+Iter-4440; Was_D: 6.734; Euc_ls: 3.04; reg_ls: 0.9352; Wz_ls: 0.07948; G_loss: -2.27; Correlation_loss : 14.07 ; D_loss_real: 4.415; D_loss_fake: -2.319; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-4440; Correlation_loss : 7.533; fk: 100.0%
+KNN Acc : 35.844406343763396 , Discriminator Classifier Acc : 0.3536219459922846
+AUC Score is 0.2276
+KNN Acc : 36.18731247321046 , Discriminator Classifier Acc : 0.3321903129018431
+AUC Score is 0.2308
+Iter-4460; Was_D: 6.794; Euc_ls: 3.05; reg_ls: 0.935; Wz_ls: 0.07945; G_loss: -2.222; Correlation_loss : 14.11 ; D_loss_real: 4.512; D_loss_fake: -2.281; rl: 99.9%; fk: 99.9%
+Zero_Shot_Iter-4460; Correlation_loss : 7.544; fk: 100.0%
+KNN Acc : 36.34804972138877 , Discriminator Classifier Acc : 0.3321903129018431
+AUC Score is 0.2263
+KNN Acc : 36.02657522503215 , Discriminator Classifier Acc : 0.3321903129018431
+AUC Score is 0.2275
+Iter-4480; Was_D: 6.678; Euc_ls: 2.976; reg_ls: 0.9344; Wz_ls: 0.07939; G_loss: -2.349; Correlation_loss : 14.04 ; D_loss_real: 4.318; D_loss_fake: -2.36; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-4480; Correlation_loss : 7.551; fk: 100.0%
+KNN Acc : 36.36948135447921 , Discriminator Classifier Acc : 0.3643377625375054
+AUC Score is 0.2371
+KNN Acc : 36.23017573939134 , Discriminator Classifier Acc : 0.34290612944706383
+AUC Score is 0.2276
+Iter-4500; Was_D: 6.714; Euc_ls: 2.992; reg_ls: 0.9345; Wz_ls: 0.07937; G_loss: -2.374; Correlation_loss : 14.39 ; D_loss_real: 4.319; D_loss_fake: -2.395; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-4500; Correlation_loss : 7.504; fk: 100.0%
+KNN Acc : 35.705100728675525 , Discriminator Classifier Acc : 0.3321903129018431
+AUC Score is 0.2295
+KNN Acc : 35.6408058294042 , Discriminator Classifier Acc : 0.34290612944706383
+AUC Score is 0.2267
+Iter-4520; Was_D: 6.7; Euc_ls: 2.968; reg_ls: 0.9354; Wz_ls: 0.07938; G_loss: -2.37; Correlation_loss : 14.08 ; D_loss_real: 4.288; D_loss_fake: -2.413; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-4520; Correlation_loss : 7.572; fk: 100.0%
+KNN Acc : 35.876553793399054 , Discriminator Classifier Acc : 0.34290612944706383
+AUC Score is 0.2284
+KNN Acc : 35.54436348049722 , Discriminator Classifier Acc : 0.3643377625375054
+AUC Score is 0.2306
+Iter-4540; Was_D: 6.758; Euc_ls: 2.959; reg_ls: 0.9347; Wz_ls: 0.07939; G_loss: -2.356; Correlation_loss : 13.73 ; D_loss_real: 4.36; D_loss_fake: -2.398; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-4540; Correlation_loss : 7.586; fk: 100.0%
+KNN Acc : 35.81225889412773 , Discriminator Classifier Acc : 0.40720102871838837
+AUC Score is 0.227
+KNN Acc : 36.423060437205315 , Discriminator Classifier Acc : 0.37505357908272613
+AUC Score is 0.2323
+Iter-4560; Was_D: 6.818; Euc_ls: 2.935; reg_ls: 0.9348; Wz_ls: 0.07954; G_loss: -2.431; Correlation_loss : 13.89 ; D_loss_real: 4.369; D_loss_fake: -2.449; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-4560; Correlation_loss : 7.565; fk: 100.0%
+KNN Acc : 35.81225889412773 , Discriminator Classifier Acc : 0.39648521217316757
+AUC Score is 0.2293
+KNN Acc : 35.99442777539649 , Discriminator Classifier Acc : 0.37505357908272613
+AUC Score is 0.2266
+Iter-4580; Was_D: 6.677; Euc_ls: 2.936; reg_ls: 0.9349; Wz_ls: 0.07948; G_loss: -2.455; Correlation_loss : 13.74 ; D_loss_real: 4.187; D_loss_fake: -2.491; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-4580; Correlation_loss : 7.481; fk: 100.0%
+KNN Acc : 35.5872267466781 , Discriminator Classifier Acc : 0.40720102871838837
+AUC Score is 0.2227
+KNN Acc : 35.437205315045006 , Discriminator Classifier Acc : 0.41791684526360906
+AUC Score is 0.2247
+Iter-4600; Was_D: 6.718; Euc_ls: 3.022; reg_ls: 0.9339; Wz_ls: 0.07937; G_loss: -2.424; Correlation_loss : 14.05 ; D_loss_real: 4.248; D_loss_fake: -2.47; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-4600; Correlation_loss : 7.553; fk: 100.0%
+KNN Acc : 35.75867981140163 , Discriminator Classifier Acc : 0.40720102871838837
+AUC Score is 0.2277
+KNN Acc : 35.80154307758251 , Discriminator Classifier Acc : 0.40720102871838837
+AUC Score is 0.2289
+Iter-4620; Was_D: 6.68; Euc_ls: 2.976; reg_ls: 0.9345; Wz_ls: 0.07942; G_loss: -2.49; Correlation_loss : 14.03 ; D_loss_real: 4.191; D_loss_fake: -2.489; rl: 99.9%; fk: 100.0%
+Zero_Shot_Iter-4620; Correlation_loss : 7.541; fk: 100.0%
+KNN Acc : 36.04800685812259 , Discriminator Classifier Acc : 0.40720102871838837
+AUC Score is 0.2303
+KNN Acc : 36.5730818688384 , Discriminator Classifier Acc : 0.40720102871838837
+AUC Score is 0.2307
+Iter-4640; Was_D: 6.621; Euc_ls: 3.008; reg_ls: 0.9342; Wz_ls: 0.07946; G_loss: -2.531; Correlation_loss : 14.54 ; D_loss_real: 4.057; D_loss_fake: -2.564; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-4640; Correlation_loss : 7.535; fk: 100.0%
+KNN Acc : 35.608658379768535 , Discriminator Classifier Acc : 0.3643377625375054
+AUC Score is 0.2265
+KNN Acc : 35.972996142306044 , Discriminator Classifier Acc : 0.39648521217316757
+AUC Score is 0.2263
+Iter-4660; Was_D: 6.799; Euc_ls: 2.972; reg_ls: 0.9345; Wz_ls: 0.07952; G_loss: -2.527; Correlation_loss : 13.8 ; D_loss_real: 4.243; D_loss_fake: -2.556; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-4660; Correlation_loss : 7.53; fk: 100.0%
+KNN Acc : 35.96228032576082 , Discriminator Classifier Acc : 0.39648521217316757
+AUC Score is 0.2282
+KNN Acc : 35.844406343763396 , Discriminator Classifier Acc : 0.37505357908272613
+AUC Score is 0.2291
+Iter-4680; Was_D: 6.71; Euc_ls: 2.945; reg_ls: 0.9348; Wz_ls: 0.07951; G_loss: -2.593; Correlation_loss : 13.93 ; D_loss_real: 4.103; D_loss_fake: -2.607; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-4680; Correlation_loss : 7.553; fk: 100.0%
+KNN Acc : 36.12301757393914 , Discriminator Classifier Acc : 0.40720102871838837
+AUC Score is 0.2321
+KNN Acc : 35.90870124303472 , Discriminator Classifier Acc : 0.3857693956279469
+AUC Score is 0.2313
+Iter-4700; Was_D: 6.662; Euc_ls: 2.952; reg_ls: 0.9347; Wz_ls: 0.07952; G_loss: -2.621; Correlation_loss : 14.39 ; D_loss_real: 4.014; D_loss_fake: -2.648; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-4700; Correlation_loss : 7.538; fk: 100.0%
+KNN Acc : 35.3836262323189 , Discriminator Classifier Acc : 0.40720102871838837
+AUC Score is 0.2278
+KNN Acc : 35.50150021431633 , Discriminator Classifier Acc : 0.42863266180882986
+AUC Score is 0.2264
+Iter-4720; Was_D: 6.687; Euc_ls: 2.954; reg_ls: 0.9351; Wz_ls: 0.07956; G_loss: -2.68; Correlation_loss : 14.48 ; D_loss_real: 3.977; D_loss_fake: -2.71; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-4720; Correlation_loss : 7.548; fk: 100.0%
+KNN Acc : 35.85512216030862 , Discriminator Classifier Acc : 0.41791684526360906
+AUC Score is 0.2298
+KNN Acc : 36.16588084012002 , Discriminator Classifier Acc : 0.42863266180882986
+AUC Score is 0.2306
+Iter-4740; Was_D: 6.713; Euc_ls: 3.062; reg_ls: 0.9348; Wz_ls: 0.07954; G_loss: -2.681; Correlation_loss : 14.55 ; D_loss_real: 3.988; D_loss_fake: -2.725; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-4740; Correlation_loss : 7.565; fk: 100.0%
+KNN Acc : 35.8979854264895 , Discriminator Classifier Acc : 0.46078011144449205
+AUC Score is 0.2293
+KNN Acc : 35.608658379768535 , Discriminator Classifier Acc : 0.46078011144449205
+AUC Score is 0.226
+Iter-4760; Was_D: 6.716; Euc_ls: 2.924; reg_ls: 0.934; Wz_ls: 0.07938; G_loss: -2.627; Correlation_loss : 13.54 ; D_loss_real: 4.074; D_loss_fake: -2.642; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-4760; Correlation_loss : 7.545; fk: 100.0%
+KNN Acc : 36.36948135447921 , Discriminator Classifier Acc : 0.43934847835405055
+AUC Score is 0.2272
+KNN Acc : 35.833690527218174 , Discriminator Classifier Acc : 0.45006429489927136
+AUC Score is 0.2311
+Iter-4780; Was_D: 6.717; Euc_ls: 3.018; reg_ls: 0.9346; Wz_ls: 0.07939; G_loss: -2.736; Correlation_loss : 14.04 ; D_loss_real: 3.991; D_loss_fake: -2.727; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-4780; Correlation_loss : 7.552; fk: 100.0%
+KNN Acc : 36.02657522503215 , Discriminator Classifier Acc : 0.45006429489927136
+AUC Score is 0.2326
+KNN Acc : 35.99442777539649 , Discriminator Classifier Acc : 0.45006429489927136
+AUC Score is 0.2266
+Iter-4800; Was_D: 6.585; Euc_ls: 2.968; reg_ls: 0.9344; Wz_ls: 0.07945; G_loss: -2.739; Correlation_loss : 14.2 ; D_loss_real: 3.811; D_loss_fake: -2.774; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-4800; Correlation_loss : 7.579; fk: 100.0%
+KNN Acc : 35.91941705957994 , Discriminator Classifier Acc : 0.46078011144449205
+AUC Score is 0.2276
+KNN Acc : 35.983711958851266 , Discriminator Classifier Acc : 0.48221174453493354
+AUC Score is 0.2296
+Iter-4820; Was_D: 6.708; Euc_ls: 2.941; reg_ls: 0.9342; Wz_ls: 0.07947; G_loss: -2.768; Correlation_loss : 14.15 ; D_loss_real: 3.913; D_loss_fake: -2.796; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-4820; Correlation_loss : 7.595; fk: 100.0%
+KNN Acc : 36.21945992284612 , Discriminator Classifier Acc : 0.47149592798971285
+AUC Score is 0.231
+KNN Acc : 35.833690527218174 , Discriminator Classifier Acc : 0.5143591941705958
+AUC Score is 0.2279
+Iter-4840; Was_D: 6.574; Euc_ls: 2.937; reg_ls: 0.9344; Wz_ls: 0.07945; G_loss: -2.812; Correlation_loss : 13.88 ; D_loss_real: 3.703; D_loss_fake: -2.871; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-4840; Correlation_loss : 7.57; fk: 100.0%
+KNN Acc : 35.75867981140163 , Discriminator Classifier Acc : 0.503643377625375
+AUC Score is 0.2268
+KNN Acc : 35.480068581225886 , Discriminator Classifier Acc : 0.5250750107158165
+AUC Score is 0.2281
+Iter-4860; Was_D: 6.656; Euc_ls: 2.91; reg_ls: 0.9349; Wz_ls: 0.07959; G_loss: -2.8; Correlation_loss : 13.85 ; D_loss_real: 3.819; D_loss_fake: -2.837; rl: 100.0%; fk: 99.9%
+Zero_Shot_Iter-4860; Correlation_loss : 7.495; fk: 100.0%
+KNN Acc : 36.10158594084869 , Discriminator Classifier Acc : 0.503643377625375
+AUC Score is 0.2305
+KNN Acc : 36.058722674667806 , Discriminator Classifier Acc : 0.47149592798971285
+AUC Score is 0.2286
+Iter-4880; Was_D: 6.664; Euc_ls: 2.899; reg_ls: 0.9349; Wz_ls: 0.07947; G_loss: -2.897; Correlation_loss : 13.72 ; D_loss_real: 3.729; D_loss_fake: -2.935; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-4880; Correlation_loss : 7.584; fk: 100.0%
+KNN Acc : 35.844406343763396 , Discriminator Classifier Acc : 0.49292756108015434
+AUC Score is 0.2275
+KNN Acc : 35.80154307758251 , Discriminator Classifier Acc : 0.46078011144449205
+AUC Score is 0.2278
+Iter-4900; Was_D: 6.625; Euc_ls: 2.898; reg_ls: 0.9346; Wz_ls: 0.07943; G_loss: -2.848; Correlation_loss : 13.55 ; D_loss_real: 3.742; D_loss_fake: -2.883; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-4900; Correlation_loss : 7.567; fk: 100.0%
+KNN Acc : 35.972996142306044 , Discriminator Classifier Acc : 0.41791684526360906
+AUC Score is 0.2288
+KNN Acc : 36.08015430775825 , Discriminator Classifier Acc : 0.45006429489927136
+AUC Score is 0.2315
+Iter-4920; Was_D: 6.674; Euc_ls: 2.905; reg_ls: 0.9349; Wz_ls: 0.07943; G_loss: -2.881; Correlation_loss : 13.73 ; D_loss_real: 3.812; D_loss_fake: -2.862; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-4920; Correlation_loss : 7.616; fk: 100.0%
+KNN Acc : 35.705100728675525 , Discriminator Classifier Acc : 0.46078011144449205
+AUC Score is 0.2278
+KNN Acc : 36.240891555936564 , Discriminator Classifier Acc : 0.47149592798971285
+AUC Score is 0.2302
+Iter-4940; Was_D: 6.721; Euc_ls: 2.961; reg_ls: 0.9348; Wz_ls: 0.0794; G_loss: -2.954; Correlation_loss : 13.7 ; D_loss_real: 3.733; D_loss_fake: -2.988; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-4940; Correlation_loss : 7.56; fk: 100.0%
+KNN Acc : 35.96228032576082 , Discriminator Classifier Acc : 0.43934847835405055
+AUC Score is 0.2297
+KNN Acc : 35.983711958851266 , Discriminator Classifier Acc : 0.46078011144449205
+AUC Score is 0.2321
+Iter-4960; Was_D: 6.705; Euc_ls: 2.973; reg_ls: 0.9353; Wz_ls: 0.07946; G_loss: -3.009; Correlation_loss : 14.05 ; D_loss_real: 3.662; D_loss_fake: -3.043; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-4960; Correlation_loss : 7.597; fk: 100.0%
+KNN Acc : 35.3836262323189 , Discriminator Classifier Acc : 0.48221174453493354
+AUC Score is 0.2266
+KNN Acc : 35.833690527218174 , Discriminator Classifier Acc : 0.48221174453493354
+AUC Score is 0.2282
+Iter-4980; Was_D: 6.674; Euc_ls: 2.945; reg_ls: 0.9347; Wz_ls: 0.07944; G_loss: -3.021; Correlation_loss : 13.71 ; D_loss_real: 3.647; D_loss_fake: -3.027; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-4980; Correlation_loss : 7.619; fk: 100.0%
+KNN Acc : 36.058722674667806 , Discriminator Classifier Acc : 0.48221174453493354
+AUC Score is 0.2296
+KNN Acc : 35.61937419631376 , Discriminator Classifier Acc : 0.42863266180882986
+AUC Score is 0.2259
+Iter-5000; Was_D: 6.742; Euc_ls: 3.001; reg_ls: 0.9351; Wz_ls: 0.07944; G_loss: -2.985; Correlation_loss : 14.04 ; D_loss_real: 3.716; D_loss_fake: -3.026; rl: 100.0%; fk: 100.0%
+Zero_Shot_Iter-5000; Correlation_loss : 7.502; fk: 100.0%
+KNN Acc : 36.294470638662666 , Discriminator Classifier Acc : 0.45006429489927136
+AUC Score is 0.2285
